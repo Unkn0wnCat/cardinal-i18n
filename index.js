@@ -4,7 +4,7 @@ module.exports = {
 
   /**
    * Returns a translated string from a lanauge based on the given key. This function is intended
-   * for use in the main process only. For the theme, use the `i18n` module in `/Andromeda/libs/`.
+   * for use in the main process only.
    * 
    * If the translation does not exist, the key is returned.
    * 
