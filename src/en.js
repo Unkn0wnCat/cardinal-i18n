@@ -1,4 +1,8 @@
 module.exports = {
+  /**
+   * Hydra Client Desktop
+   */
+
   // string used for unit test - this must be the anglicised language name
   "unit-test-string":                                                     "English",
 
@@ -436,4 +440,14 @@ module.exports = {
   "media-feed-block.top-picks.title.evening-3":                           "Evening soundscapes",
   "media-feed-block.top-picks.title.evening-4":                           "Music to end the day to",
   "media-feed-block.top-picks.title.evening-5":                           "For this evening",
+  
+  /**
+   * Hydra Server Desktop
+   */
+  // general
+  "server.app-name":                                                      "Hydra Server",
+  
+  // navigation
+  "server.nav.overview":                                                  "Overview",
+  "server.nav.settings":                                                  "Settings",
 }
