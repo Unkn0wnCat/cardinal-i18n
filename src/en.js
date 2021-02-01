@@ -446,19 +446,20 @@ module.exports = {
    */
   // general
   "server.app-name":                                                      "Hydra Server",
+  "server.location":                                                      "Location",
+  "server.uptime":                                                        "Uptime",
   
   // navigation
   "server.nav.overview":                                                  "Overview",
   "server.nav.settings":                                                  "Settings",
   
   // overview
-  "server.title":                                                         "Server Overview",
+  "server.overview.title":                                                "Server Overview",
   "server.status.title":                                                  "Status",
-  "server.status.online":                                                 "Server is running",
+  "server.status.online":                                                 "Server is online",
   "server.status.offline":                                                "Server is offline",
   "server.status.connecting":                                             "Connecting...",
   "server.status.loading":                                                "Loading...",
-  "server.status.open-test-page":                                         "Test page",
   
   // settings
   "server.settings.title":                                                "Server Settings",
