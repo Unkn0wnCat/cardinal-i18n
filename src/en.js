@@ -35,6 +35,7 @@ module.exports = {
   "disc":                                                                 "Disc",
   "choose-file":                                                          "Choose file",
   "or":                                                                   "or",
+  "of":                                                                   "of", // new
   "source-icon.local.title":                                              "This song comes from a file on your computer",
   "danger-confirm":                                                       "Are you sure? This cannot be undone.",
   "toggle-favorite":                                                      "Add/remove from favorites",
@@ -465,11 +466,8 @@ module.exports = {
   // indexer
   "server.indexer.title":                                                 "Media Index",
   "server.index-controls.title":                                          "Controls",
-  "server.index-controls.state.inactive":                                 "Not indexing",
   "server.index-controls.state.indexing":                                 "Indexing",
-  "server.index-controls.state.paused":                                   "Paused",
-  "server.index-controls.action.start":                                   "Begin Indexing",
-  "server.index-controls.action.stop":                                    "Stop Indexing",
+  "server.index-controls.indexing-prefix":                                "Indexing",
   "server.index-stats.title":                                             "Statistics",
   
   // settings
