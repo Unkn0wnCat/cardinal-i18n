@@ -451,15 +451,20 @@ module.exports = {
   
   // navigation
   "server.nav.overview":                                                  "Overview",
+  "server.nav.indexer":                                                   "Index",
   "server.nav.settings":                                                  "Settings",
   
   // overview
   "server.overview.title":                                                "Server Overview",
   "server.status.title":                                                  "Status",
-  "server.status.online":                                                 "Server is online",
-  "server.status.offline":                                                "Server is offline",
+  "server.status.online":                                                 "Server is online.",
+  "server.status.offline":                                                "Server is offline.",
   "server.status.connecting":                                             "Connecting...",
   "server.status.loading":                                                "Loading...",
+  
+  // indexer
+  "server.indexer.title":                                                 "Indexing",
+  "server.index-controls.title":                                          "Controls",
   
   // settings
   "server.settings.title":                                                "Server Settings",
