@@ -465,10 +465,12 @@ module.exports = {
   // indexer
   "server.indexer.title":                                                 "Media Index",
   "server.index-controls.title":                                          "Controls",
-  "server.index-controls.btn.start":                                      "Start",
-  "server.index-controls.btn.pause":                                      "Pause",
-  "server.index-controls.btn.resume":                                     "Resume",
-  "server.index-controls.btn.stop":                                       "Stop",
+  "server.index-controls.state.inactive":                                 "Not indexing",
+  "server.index-controls.state.indexing":                                 "Indexing",
+  "server.index-controls.state.paused":                                   "Paused",
+  "server.index-controls.action.start":                                   "Begin Indexing",
+  "server.index-controls.action.stop":                                    "Stop Indexing",
+  "server.index-stats.title":                                             "Statistics",
   
   // settings
   "server.settings.title":                                                "Server Settings",
