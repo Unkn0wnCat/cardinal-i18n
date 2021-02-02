@@ -463,8 +463,12 @@ module.exports = {
   "server.status.loading":                                                "Loading...",
   
   // indexer
-  "server.indexer.title":                                                 "Indexing",
+  "server.indexer.title":                                                 "Media Index",
   "server.index-controls.title":                                          "Controls",
+  "server.index-controls.btn.start":                                      "Start",
+  "server.index-controls.btn.pause":                                      "Pause",
+  "server.index-controls.btn.resume":                                     "Resume",
+  "server.index-controls.btn.stop":                                       "Stop",
   
   // settings
   "server.settings.title":                                                "Server Settings",
