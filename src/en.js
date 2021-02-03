@@ -468,6 +468,9 @@ module.exports = {
   "server.index-controls.title":                                          "Controls",
   "server.index-controls.state.indexing":                                 "Indexing",
   "server.index-controls.indexing-prefix":                                "Indexing",
+  "server.index-controls.state.scanning":                                 "Looking for files...",
+  "server.index-controls.state.indexing":                                 "Indexing",
+  "server.index-controls.state.paused":                                   "Paused",
   "server.index-stats.title":                                             "Statistics",
   
   // settings
