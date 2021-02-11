@@ -1,6 +1,7 @@
 module.exports = {
-  'en': require('./src/en.js'),
-  'fr': require('./src/fr.js'),
+  'en': require('./src/langs/en.js'),
+  'fr': require('./src/langs/fr.js'),
+  'httpRoutes': require('./src/http-routes.js'),
 
   /**
    * Returns a translated string from a lanauge based on the given key. This function is intended
@@ -12,6 +13,6 @@ module.exports = {
    * @param {string} [lang=en] - The language to retreive the transation from. Defaults to `en`.
    */
   'string': (key, lang = 'en') => {
-      return require(`./src/${lang}.js`)[key] || key
+      return require(`./src/langs/${lang}.js`)[key] || key
   }
 }

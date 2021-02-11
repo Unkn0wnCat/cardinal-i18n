@@ -464,7 +464,7 @@ module.exports = {
   "server.status.loading":                                                "Loading...",
   
   // indexer
-  "server.indexer.title":                                                 "Media Index",
+  "server.indexer.title":                                                 "File Index",
   "server.index-controls.title":                                          "Controls",
   "server.index-controls.state.indexing":                                 "Indexing",
   "server.index-controls.indexing-prefix":                                "Indexing",
