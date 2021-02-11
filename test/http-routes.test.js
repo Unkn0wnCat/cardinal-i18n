@@ -1,37 +1,28 @@
-const http = require('http')
-const fastify = require('fastify')({
-  //'logger': true
+const tap = require('tap')
+const { server } = require('hydra-test-tools')
+
+// what's being tested
+const { httpRoutes } = require('../index.js')
+
+// when testing is done
+tap.tearDown(() => {
+  server.stop()
 })
 
-const i18n = require('../index.js')
-const baseUrl = '127.0.0.1:3000'
+// start test server
+server.start()
 
-// init test server
-fastify.listen(3000, '127.0.0.1', (error, address) => {
-  if (error) {
-    fastify.log.error(error)
-    process.exit(1)
-  }
-})
+// register the routes being tested
+httpRoutes.register(server.instance)
 
-// register the routes
-i18n.httpRoutes.register(fastify)
-
-function get(route) {
-  return new Promise((resolve, reject) => {
-    http.get({'path': `${baseUrl}${route}`}, (response) => {
-      resolve(response)
-    })
+// when server is ready, run all tests
+server.instance.ready(() => {
+  /**
+   * Test #1
+   */
+  tap.test('GET `/all`', async (t) => {
+    let response = await server.get('/i18n/all')
+  
+    return t.type(response.data, 'object')
   })
-}
-
-/**
- * Begin tests
- */
-test('/all', async () => {
-  let response = await get('/all')
-
-  console.log(response)
-
-  expect(typeof response).toBe('object')
 })

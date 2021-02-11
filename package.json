@@ -4,10 +4,12 @@
   "author": "somebeaver",
   "private": true,
   "scripts": {
-    "test": "jest"
+    "test": "tap --reporter=spec --no-coverage"
   },
   "devDependencies": {
-    "jest": "^26.6.3",
-    "fastify": "^3.11.0"
+    "axios": "^0.21.1",
+    "fastify": "^3.11.0",
+    "hydra-test-tools": "github:somebeaver/hydra-test-tools",
+    "tap": "^14.11.0"
   }
 }

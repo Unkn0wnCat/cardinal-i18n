@@ -1,19 +1,20 @@
+const tap = require('tap')
 const i18n = require('../index.js')
 
 /**
  * English
  */
-test('Returns the English test string', () => {
+tap.test('Returns the English test string', async (t) => {
   let returnedString = i18n.string('unit-test-string', 'en')
 
-  expect(returnedString).toBe('English')
+  return t.equal(returnedString, 'English')
 })
 
 /**
  * French
  */
-test('Returns the French test string', () => {
+tap.test('Returns the French test string', async (t) => {
   let returnedString = i18n.string('unit-test-string', 'fr')
   
-  expect(returnedString).toBe('French')
+  return t.equal(returnedString, 'French')
 })
