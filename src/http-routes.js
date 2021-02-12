@@ -14,7 +14,7 @@ exports.register = (server) => {
   server.get(`${apiBasePath}/all`, async (request, reply) => {
     return {
       'en': require('./langs/en.js'),
-      'en': require('./langs/fr.js'),
+      'fr': require('./langs/fr.js'),
     }
   })
 }

@@ -13,6 +13,6 @@ module.exports = {
    * @param {string} [lang=en] - The language to retreive the transation from. Defaults to `en`.
    */
   'string': (key, lang = 'en') => {
-      return require(`./src/langs/${lang}.js`)[key] || key
+    return require(`./src/langs/${lang}.js`)[key] || key
   }
 }
