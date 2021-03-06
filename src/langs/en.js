@@ -458,8 +458,8 @@ module.exports = {
   // overview
   "server.overview.title":                                                "Server Overview",
   "server.status.title":                                                  "Status",
-  "server.status.online":                                                 "Server is online.",
-  "server.status.offline":                                                "Server is offline.",
+  "server.status.online":                                                 "Server is online",
+  "server.status.offline":                                                "Server is offline",
   "server.status.connecting":                                             "Connecting...",
   "server.status.loading":                                                "Loading...",
   
@@ -471,7 +471,13 @@ module.exports = {
   "server.index-controls.state.scanning":                                 "Looking for files...",
   "server.index-controls.state.indexing":                                 "Indexing",
   "server.index-controls.state.paused":                                   "Paused",
-  "server.index-stats.title":                                             "Statistics",
+  
+  // index stats
+  "server.index-stats.title":                                             "Indexed Files",
+  "index-stats.music-files":                                              "Music files",
+  "index-stats.cinema-files":                                             "Movies & TV files",
+  "index-stats.photo-files":                                              "Photo files",
+  "index-stats.document-files":                                           "Document files",
   
   // settings
   "server.settings.title":                                                "Server Settings",
