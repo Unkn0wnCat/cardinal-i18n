@@ -470,7 +470,7 @@ module.exports = {
   "server.index-controls.state.indexing":                                 "Indexing",
   "server.index-controls.indexing-prefix":                                "Indexing",
   "server.index-controls.state.starting":                                 "Starting...",
-  "server.index-controls.state.scanning":                                 "Scanning for files...",
+  "server.index-controls.state.scanning":                                 "Scanning...",
   "server.index-controls.state.indexing":                                 "Indexing...",
   "server.index-controls.state.paused":                                   "Paused",
   "server.index-controls.state.scanned-file":                             "Discovered {{file}}",
