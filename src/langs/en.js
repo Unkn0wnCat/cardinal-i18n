@@ -465,6 +465,7 @@ module.exports = {
   
   // indexer
   "server.indexer.title":                                                 "File Index",
+  "server.index-controls.state.internal-error":                           "The indexing service encountered an internal error. It breaks my heart that you have to see this. 😭",
   "server.index-controls.title":                                          "Controls",
   "server.index-controls.state.indexing":                                 "Indexing",
   "server.index-controls.indexing-prefix":                                "Indexing",
@@ -472,6 +473,7 @@ module.exports = {
   "server.index-controls.state.scanning":                                 "Scanning for files...",
   "server.index-controls.state.indexing":                                 "Indexing...",
   "server.index-controls.state.paused":                                   "Paused",
+  "server.index-controls.state.scanned-file":                             "Discovered {{file}}",
   
   // index stats
   "server.index-stats.title":                                             "Indexed Files",
