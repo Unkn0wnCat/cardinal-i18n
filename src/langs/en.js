@@ -474,6 +474,7 @@ module.exports = {
   "server.index-controls.state.indexing":                                 "Indexing...",
   "server.index-controls.state.paused":                                   "Paused",
   "server.index-controls.state.scanned-count":                            "Found {{n}} files",
+  "server.index-controls.state.finished":                                 "Indexing Complete",
   "server.index-summary.new-files":                                       "New files",
   "server.index-summary.updated-files":                                   "Updated files",
   "server.index-summary.skipped-files":                                   "Skipped files",
