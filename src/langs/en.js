@@ -476,9 +476,15 @@ module.exports = {
   "server.index-controls.state.scanned-count":                            "Found {{n}} files",
   "server.index-controls.state.finished":                                 "Indexing Complete",
   "server.index-summary.new-files":                                       "New files",
+  "server.index-summary.new-files-explanation":                           "Files that were first seen on this indexing run.",
   "server.index-summary.updated-files":                                   "Updated files",
+  "server.index-summary.updated-files-explanation":                       "Files that changed since the last time they were indexed.",
   "server.index-summary.skipped-files":                                   "Skipped files",
+  "server.index-summary.skipped-files-explanation":                       "Files that didn't change since the last time they were indexed, and therefore were skipped on this run.",
+  "server.index-summary.deleted-files":                                   "Deleted files",
+  "server.index-summary.deleted-files-explanation":                       "Files that were once indexed, but now no longer exist on the local disk.",
   "server.index-summary.errored-files":                                   "Errored files",
+  "server.index-summary.errored-files-explanation":                       "Files that produced an error while attempting to process their data.",
   
   // index stats
   "server.index-stats.title":                                             "Indexed Files",
