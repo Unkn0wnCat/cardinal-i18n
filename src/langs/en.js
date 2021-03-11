@@ -471,6 +471,7 @@ module.exports = {
   "server.index-controls.state.scanning":                                 "Scanning...",
   "server.index-controls.scanned-count":                                  "Found {{n}} files",
   "server.index-controls.state.syncing":                                  "Syncing...",
+  "server.index-controls.syncing-message":                                "Comparing items...",
   "server.index-controls.added-file-to-index":                            "Added",
   "server.index-controls.removed-file-from-index":                        "Removed",
   "server.index-controls.state.importing":                                "Processing...",
