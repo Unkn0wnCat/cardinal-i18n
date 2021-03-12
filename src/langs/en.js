@@ -485,9 +485,9 @@ module.exports = {
   "server.index-summary.updated-files":                                   "Updated files",
   "server.index-summary.updated-files-explanation":                       "Files that changed since the last time they were indexed.",
   "server.index-summary.skipped-files":                                   "Skipped files",
-  "server.index-summary.skipped-files-explanation":                       "Files that haven't changed since the last time they were indexed, and therefore were skipped on this run.",
+  "server.index-summary.skipped-files-explanation":                       "Files that haven't changed since the last time they were indexed, and were therefore skipped.",
   "server.index-summary.deleted-files":                                   "Deleted files",
-  "server.index-summary.deleted-files-explanation":                       "Files that were once indexed, but now no longer exist on the local disk.",
+  "server.index-summary.deleted-files-explanation":                       "Files that were once indexed, but now no longer exist, and were therefore removed from the index.",
   "server.index-summary.errored-files":                                   "Errored files",
   "server.index-summary.errored-files-explanation":                       "Files that produced an error while attempting to process their data.",
   
