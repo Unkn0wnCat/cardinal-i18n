@@ -476,6 +476,7 @@ module.exports = {
   "server.index-controls.removed-file-from-index":                        "Removed",
   "server.index-controls.state.importing":                                "Indexing...",
   "server.index-controls.importing-file":                                 "Indexed",
+  "server.index-controls.skipped-file":                                   "Skipped",
   "server.index-controls.calculating-time-remaining":                     "Calculating time...",
   "server.index-controls.importing-time-remaining":                       "{{time}} left",
   "server.index-controls.importing-time-remaining-almost-done":           "Almost done...",
