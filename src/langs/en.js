@@ -478,6 +478,7 @@ module.exports = {
   "server.index-controls.imported-file":                                  "Indexed",
   "server.index-controls.updated-file":                                   "Updated",
   "server.index-controls.skipped-file":                                   "Skipped",
+  "server.index-controls.errored-file":                                   "Errored",
   "server.index-controls.calculating-time-remaining":                     "Calculating time...",
   "server.index-controls.importing-time-remaining":                       "{{time}} left",
   "server.index-controls.importing-time-remaining-almost-done":           "Almost done...",
