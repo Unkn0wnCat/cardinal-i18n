@@ -484,6 +484,8 @@ module.exports = {
   "server.index-controls.importing-time-remaining-almost-done":           "Almost done...",
   "server.index-controls.state.paused":                                   "Paused",
   "server.index-controls.state.finished":                                 "Indexing Complete",
+  
+  // index stats
   "server.index-summary.new-files":                                       "New files",
   "server.index-summary.new-files-explanation":                           "Files that were first seen on this indexing run.",
   "server.index-summary.updated-files":                                   "Updated files",
@@ -497,10 +499,14 @@ module.exports = {
   
   // index stats
   "server.index-stats.title":                                             "Indexed Files",
-  "index-stats.music-files":                                              "Music files",
-  "index-stats.cinema-files":                                             "Movies & TV files",
-  "index-stats.photo-files":                                              "Photo files",
-  "index-stats.document-files":                                           "Document files",
+  "server.index-stats.music-files":                                       "Music files",
+  "server.index-stats.cinema-files":                                      "Movies & TV files",
+  "server.index-stats.photo-files":                                       "Photo files",
+  "server.index-stats.document-files":                                    "Document files",
+  
+  // index directories
+  "server.index-directories.title":                                       "My Folders",
+  "server.index-directories.subtitle":                                    "Drag n' drop folders into the box to add them to your media",
   
   // settings
   "server.settings.title":                                                "Server Settings",
