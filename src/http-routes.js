@@ -1,4 +1,4 @@
-const apiBasePath = '/i18n'
+const apiBasePath = '/api/i18n'
 
 /**
  * Registers RESTful HTTP routes.

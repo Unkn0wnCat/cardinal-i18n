@@ -507,6 +507,7 @@ module.exports = {
   // index directories
   "server.index-directories.title":                                       "My Folders",
   "server.index-directories.subtitle":                                    "Drag n' drop folders into the box to add them to your media",
+  "server.index-directories.remove-dir-title":                            "Removing a folder does not remove its media until the next indexing run.",
   
   // settings
   "server.settings.title":                                                "Server Settings",
