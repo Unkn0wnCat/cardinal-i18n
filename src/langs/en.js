@@ -25,7 +25,7 @@ module.exports = {
   "playlists":                                                            "Playlists", // new
 
   // general
-  "app-name":                                                             "Echoes",
+  "app-name":                                                             "Cardinal",
   "close":                                                                "Close",
   "save":                                                                 "Save", // new
   "reset":                                                                "Reset", // new
@@ -43,17 +43,17 @@ module.exports = {
   "no-content":                                                           "No content",
 
   // fullsize-app
-  "fullsize-app.context-menu.group-name":                                 "Echoes",
+  "fullsize-app.context-menu.group-name":                                 "Cardinal",
   "fullsize-app.context-menu.settings":                                   "Settings",
   
   // system menu
-  "system-menu.about":                                                    "About Echoes",
+  "system-menu.about":                                                    "About Cardinal",
   "system-menu.close-window":                                             "Close Window",
   "system-menu.check-for-updates":                                        "Check for updates...",
   "system-menu.back":                                                     "Back",
   "system-menu.forward":                                                  "Forward",
   "system-menu.settings":                                                 "Settings",
-  "system-menu.quit":                                                     "Quit Echoes",
+  "system-menu.quit":                                                     "Quit Cardinal",
   "system-menu.top-level.file":                                           "File",
   "system-menu.top-level.view":                                           "View",
   "system-menu.top-level.playback":                                       "Playback",
@@ -89,7 +89,7 @@ module.exports = {
   
   // self updater
   "updater.ask-to-update.title":                                          "Update available",
-  "updater.ask-to-update.msg":                                            "Would you like to update now? The app will restart.\n\nPlease be patient and do not quit Echoes. A progress indicator will be available soon.",
+  "updater.ask-to-update.msg":                                            "Would you like to update now? The app will restart.\n\nPlease be patient and do not quit Cardinal. A progress indicator will be available soon.",
   "updater.ask-to-update.btn.yes":                                        "Update Now",
   "updater.ask-to-update.btn.no":                                         "Later",
   "updater.no-updates.title":                                             "No update available",
@@ -101,9 +101,9 @@ module.exports = {
 
   // warnings/notifications/dialogues
   "media-keys-need-permission.notification.title":                        "Permission Required",
-  "media-keys-need-permission.notification.message":                      "<p>Echoes needs permission to use the media keys on your keyboard.</p><p>Restart the app after granting permission.</p>",
+  "media-keys-need-permission.notification.message":                      "<p>Cardinal needs permission to use the media keys on your keyboard.</p><p>Restart the app after granting permission.</p>",
   "notification.cannot-load-music-file.title":                            "File Not Found",
-  "notification.cannot-load-music-file.message":                          "<p>Echoes cannot find the file for the song \"{{song}}\". It may have been deleted or it might be on an external drive that is no longer accessible.</p>",
+  "notification.cannot-load-music-file.message":                          "<p>Cardinal cannot find the file for the song \"{{song}}\". It may have been deleted or it might be on an external drive that is no longer accessible.</p>",
   
   // search
   "search-bar.placeholder":                                               "Name, title, year",
@@ -147,7 +147,7 @@ module.exports = {
   "settings.local-files.title":                                           "Files on my Computer",
   "settings.local-files.instructions":                                    "Drag n' drop folders into the box to add them to your media.",
   "settings.local-files.importer-msg":                                    "New folders will automatically be imported after the settings are closed.",
-  "settings.local-files.remove-folder-tooltip-message":                   "Echoes won't check this folder anymore when refreshing the library",
+  "settings.local-files.remove-folder-tooltip-message":                   "Cardinal won't check this folder anymore when refreshing the library",
   "settings.local-files.folder-structure-guide-opener":                   "Recommended folder structure", // new
   "settings.online-accounts.title":                                       "Cloud Music",
   "settings.online-accounts.instructions":                                "Optionally log into a cloud music service",
@@ -158,7 +158,7 @@ module.exports = {
   "settings.online-accounts.logout":                                      "Log out",
   "settings.factory-reset.title":                                         "Factory Reset",
   "settings.factory-reset.desc":                                          "Reset everything",
-  "settings.factory-reset.confirm":                                       "This will reset Echoes, making it like it was just installed. The database and cached files (album art, movie posters) will be deleted.\n\nYour media files will not be affected.\n",
+  "settings.factory-reset.confirm":                                       "This will reset Cardinal, making it like it was just installed. The database and cached files (album art, movie posters) will be deleted.\n\nYour media files will not be affected.\n",
   "settings.color-theme.title":                                           "Colour Theme", // new
   "settings.color-theme.option.light":                                    "Light (beta)", // new
   "settings.color-theme.option.dark":                                     "Dark", // new
@@ -311,32 +311,32 @@ module.exports = {
   "view.explore.title":                                                   "Explore My Music",
 
   // welcome modal
-  "welcome.title":                                                        "Welcome to Echoes",
+  "welcome.title":                                                        "Welcome to Cardinal",
   "welcome.subtitle":                                                     "A modern desktop music player and library",
   "welcome.feature.byom.name":                                            "BYOM",
-  "welcome.feature.byom.desc":                                            `<p><strong>Bring Your Own Music.</strong> Echoes uses the music on your computer, so you'll need to have your own MP3 or FLAC files.</p>`,
+  "welcome.feature.byom.desc":                                            `<p><strong>Bring Your Own Music.</strong> Cardinal uses the music on your computer, so you'll need to have your own MP3 or FLAC files.</p>`,
   "welcome.feature.spotify-enhancements.name":                            "Spotify Enhancements",
   "welcome.feature.spotify-enhancements.desc":                            `<p>If you have a Spotify account, you can use it to get song metadata and new music recommendations based on your music files.</p>`,
   "welcome.feature.open-source.name":                                     "Open Source and Privacy Focused",
-  "welcome.feature.open-source.desc":                                     `<p>Echoes is free and open source software. Check out the project on Github and feel free to submit any issues you find.</p>
+  "welcome.feature.open-source.desc":                                     `<p>Cardinal is free and open source software. Check out the project on Github and feel free to submit any issues you find.</p>
                                                                           <p>Your data never leaves this computer. You can read the Privacy Policy <a href="https://echoesapp.ca/en/privacy-policy" class="external" target="_blank">here</a>.</p>`,
   "welcome.how-to-open-again":                                            "You can show this again in the Help menu.",
   
   // attributions modal
   "attributions.title":                                                   "Attributions",
   "attributions.subtitle":                                                "Open source and other credits",
-  "attributions.open-source":                                             '<p>Echoes uses the following open source software.</p>',
+  "attributions.open-source":                                             '<p>Cardinal uses the following open source software.</p>',
   "attributions.fonts":                                                   '<p>And these fonts.</p>',
   
   // about modal
-  "about.title":                                                          "About Echoes",
-  "about.body":                                                           `<p>Echoes is designed and developed by <a href="https://github.com/somebeaver" class="external">somebeaver 🌴</a></p>
+  "about.title":                                                          "About Cardinal",
+  "about.body":                                                           `<p>Cardinal is designed and developed by <a href="https://github.com/somebeaver" class="external">somebeaver 🌴</a></p>
                                                                           <p>Get involved with the project on <a href="https://github.com/somebeaver/Echoes" class="external">Github</a></p>`,
   
   // folder structure guide modal
   "folder-structure-guide.title":                                         "Folder Structure Guide",
-  "folder-structure-guide.desc-before-examples":                          `<p><strong>When importing files, Echoes will always prioritize the embedded file metadata that exists.</strong></ul>
-                                                                           <p>However, when metadata is nonexistent or incomplete, Echoes will try to fill in the missing information using the surrounding folders and files.</p>
+  "folder-structure-guide.desc-before-examples":                          `<p><strong>When importing files, Cardinal will always prioritize the embedded file metadata that exists.</strong></ul>
+                                                                           <p>However, when metadata is nonexistent or incomplete, Cardinal will try to fill in the missing information using the surrounding folders and files.</p>
                                                                            <p>For the best import results, adhere to these folder structures.</p>`,
   "folder-structure-guide.example.music.title":                           "Music",
   "folder-structure-guide.example.music.code.artist":                     "Artist Name",
@@ -363,7 +363,7 @@ module.exports = {
   "metadata-editor.date.year":                                            "Year",
   "metadata-editor.total-discs-label":                                    "Of",
   "metadata-editor.genres":                                               "Genres",
-  "metadata-editor.smart-fill-guess.tooltip":                             "While importing, Echoes gusssed this value because the file was missing the appropriate metadata.",
+  "metadata-editor.smart-fill-guess.tooltip":                             "While importing, Cardinal gusssed this value because the file was missing the appropriate metadata.",
   "metadata-editor.merge-warning-message":                                "This edit will merge two {{things}}.",
   "metadata-editor.merge-warning-detail":                                 'If you rename "{{thingA}}" to "{{thingB}}", they will be merged into just "{{thingB}}". Do you want to do this?',
   "metadata-editor.cannot-edit-currently-playing-song-warning":           'You cannot edit the currently playing song.',
@@ -465,7 +465,7 @@ module.exports = {
   
   // indexer
   "server.indexer.title":                                                 "File Index",
-  "server.index-controls.state.internal-error":                           "The indexing service encountered an internal error. It breaks my heart that you're seeing this. 😭",
+  "server.index-controls.state.internal-error":                           "The indexing service encountered an internal error. This is heartbreaking. 😭",
   "server.index-controls.title":                                          "Controls",
   "server.index-controls.state.starting":                                 "Starting...",
   "server.index-controls.state.scanning":                                 "Scanning...",
@@ -508,6 +508,7 @@ module.exports = {
   "server.index-directories.title":                                       "My Folders",
   "server.index-directories.subtitle":                                    "Drag n' drop folders into the box to add them to your media",
   "server.index-directories.remove-dir-title":                            "Removing a folder does not remove its media until the next indexing run.",
+  "server.index-directories.load-error":                                  "Couldn't load directories.",
   
   // settings
   "server.settings.title":                                                "Server Settings",
