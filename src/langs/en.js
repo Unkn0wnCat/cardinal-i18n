@@ -453,6 +453,7 @@ module.exports = {
   // navigation
   "server.nav.overview":                                                  "Overview",
   "server.nav.indexer":                                                   "Index",
+  "server.nav.connected-devices":                                         "Devices",
   "server.nav.settings":                                                  "Settings",
   
   // overview
@@ -509,6 +510,9 @@ module.exports = {
   "server.index-directories.subtitle":                                    "Drag n' drop folders into the box to add them to your media",
   "server.index-directories.remove-dir-title":                            "Removing a folder does not remove its media until the next indexing run.",
   "server.index-directories.load-error":                                  "Couldn't load directories.",
+  
+  // connected devices
+  "server.connected-devices.title":                                       "Connected Devices",
   
   // settings
   "server.settings.title":                                                "Server Settings",
