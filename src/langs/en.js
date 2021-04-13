@@ -87,12 +87,21 @@ module.exports = {
   "system-menu.front":                                                    "Front",
   "system-menu.window":                                                   "Window",
   
-  "server-connect.form-title":                                            "Server Connection",
-  "server-connect.form-subtitle":                                         "Connect to a Cardinal Server",
+  // server-connect
+  "server-connect.form-title":                                            "Connect to a Cardinal Server",
   "server-connect.form-field.host":                                       "Host",
   "server-connect.form-field.port":                                       "Port",
   "server-connect.form-submit":                                           "Connect",
-  "server-connect.logo-title":                                            "Thank you for using Cardinal apps :)",
+  "server-connect.logo-title":                                            "Chrip chirp",
+  "server-connect.help-c2a":                                              "How do I connect?",
+  "server-connect.help-body":                                             `
+                                                                          <p>To use this app, you must have <a href="https://cardinalapp.xyz/cardinal-server" class="external">Cardinal Server</a> running somewhere on your network.</p>
+                                                                          <p>Once the server is running, the location information can be found in the <strong>Status</strong> widget, and it will look something like,</p>
+                                                                          <code>192.168.0.0:0000</code>
+                                                                          <p>The <strong>Host</strong> is the part to the left of the colon, usually an IP address.</p>
+                                                                          <p>The <strong>Port</strong> is the part to the right of the colon, it will a number with up to 5 digits.</p>
+                                                                          <p>The server that you connect to must continue running while using any client app.</p>
+                                                                          `,
   
   // self updater
   "updater.ask-to-update.title":                                          "Update available",
