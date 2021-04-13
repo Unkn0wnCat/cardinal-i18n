@@ -42,9 +42,9 @@ module.exports = {
   "play-count":                                                           "Play count",
   "no-content":                                                           "No content",
 
-  // fullsize-app
-  "fullsize-app.context-menu.group-name":                                 "Cardinal",
-  "fullsize-app.context-menu.settings":                                   "Settings",
+  // music app general
+  "music-app.context-menu.group-name":                                    "Cardinal",
+  "music-app.context-menu.settings":                                      "Settings",
   
   // system menu
   "system-menu.about":                                                    "About Cardinal",
@@ -86,6 +86,13 @@ module.exports = {
   "system-menu.reload":                                                   "Reload",
   "system-menu.front":                                                    "Front",
   "system-menu.window":                                                   "Window",
+  
+  "server-connect.form-title":                                            "Server Connection",
+  "server-connect.form-subtitle":                                         "Connect to a Cardinal Server",
+  "server-connect.form-field.host":                                       "Host",
+  "server-connect.form-field.port":                                       "Port",
+  "server-connect.form-submit":                                           "Connect",
+  "server-connect.logo-title":                                            "Thank you for using Cardinal apps :)",
   
   // self updater
   "updater.ask-to-update.title":                                          "Update available",
