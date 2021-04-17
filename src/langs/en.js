@@ -102,7 +102,7 @@ module.exports = {
                                                                           <p>The <strong>Port</strong> is the part to the right of the colon, it's a number with up to 5 digits.</p>
                                                                           <p>The server that you connect to must continue running while using this app.</p>
                                                                           `,
-  "server-connect.connection-failed":                                     "Could not connect to <strong>{{location}}</strong>.<br>Is the server running on the local area network?",
+  "server-connect.connection-failed":                                     "Server connection failed.<br>Is the server running on the local area network?",
   
   // self updater
   "updater.ask-to-update.title":                                          "Update available",
