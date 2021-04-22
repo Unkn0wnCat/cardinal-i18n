@@ -156,7 +156,6 @@ module.exports = {
   "settings.context-menu":                                                "Settings",
   "settings.main-title":                                                  "Settings",
   "settings.tab-name-general":                                            "General",
-  "settings.tab-name-sources":                                            "Media",
   "settings.tab-name-music-playback":                                     "Music Playback", // new
   "settings.tab-name-theme":                                              "Theme",
   "settings.tab-name-advanced":                                           "Advanced",
