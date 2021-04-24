@@ -103,6 +103,7 @@ module.exports = {
                                                                           <p>The server that you connect to must continue running while using this app.</p>
                                                                           `,
   "server-connect.connection-failed":                                     "Server connection failed.<br>Is the server running on the local area network?",
+  "server-connect.autoconnect-failed":                                    "Could not automatically reconnect to the server.",
   
   // self updater
   "updater.ask-to-update.title":                                          "Update available",
@@ -174,7 +175,7 @@ module.exports = {
   "settings.online-accounts.logout":                                      "Log out",
   "settings.factory-reset.title":                                         "Factory Reset",
   "settings.factory-reset.desc":                                          "Reset everything",
-  "settings.factory-reset.confirm":                                       "This will reset Cardinal, making it like it was just installed. The database and cached files (album art, movie posters) will be deleted.\n\nYour media files will not be affected.\n",
+  "settings.factory-reset.confirm":                                       "This will reset only this Cardinal app, making it like it was just installed. \n\nNothing on the server will be effected, including playback history. To remove server data, use the server app.\n",
   "settings.color-theme.title":                                           "Colour Theme", // new
   "settings.color-theme.option.light":                                    "Light (beta)", // new
   "settings.color-theme.option.dark":                                     "Dark", // new
@@ -325,18 +326,6 @@ module.exports = {
 
   // explore
   "view.explore.title":                                                   "Explore My Music",
-
-  // welcome modal
-  "welcome.title":                                                        "Welcome to Cardinal",
-  "welcome.subtitle":                                                     "A modern desktop music player and library",
-  "welcome.feature.byom.name":                                            "BYOM",
-  "welcome.feature.byom.desc":                                            `<p><strong>Bring Your Own Music.</strong> Cardinal uses the music on your computer, so you'll need to have your own MP3 or FLAC files.</p>`,
-  "welcome.feature.spotify-enhancements.name":                            "Spotify Enhancements",
-  "welcome.feature.spotify-enhancements.desc":                            `<p>If you have a Spotify account, you can use it to get song metadata and new music recommendations based on your music files.</p>`,
-  "welcome.feature.open-source.name":                                     "Open Source and Privacy Focused",
-  "welcome.feature.open-source.desc":                                     `<p>Cardinal is free and open source software. Check out the project on Github and feel free to submit any issues you find.</p>
-                                                                          <p>Your data never leaves this computer. You can read the Privacy Policy <a href="https://echoesapp.ca/en/privacy-policy" class="external" target="_blank">here</a>.</p>`,
-  "welcome.how-to-open-again":                                            "You can show this again in the Help menu.",
   
   // attributions modal
   "attributions.title":                                                   "Attributions",
@@ -347,7 +336,7 @@ module.exports = {
   // about modal
   "about.title":                                                          "About Cardinal",
   "about.body":                                                           `<p>Cardinal is designed and developed by <a href="https://github.com/somebeaver" class="external">somebeaver 🌴</a></p>
-                                                                          <p>Get involved with the project on <a href="https://github.com/somebeaver/Echoes" class="external">Github</a></p>`,
+                                                                          <p>Get involved with the project on <a href="https://github.com/somebeaver" class="external">Github</a></p>`,
   
   // folder structure guide modal
   "folder-structure-guide.title":                                         "Folder Structure Guide",
