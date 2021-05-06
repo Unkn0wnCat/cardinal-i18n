@@ -1,6 +1,8 @@
 # cardinal-i18n
 
-This repository contains all of the localized strings for all Hydra apps. This
+*This package is part of the [Cardinal apps](https://cardinalapps.xyz).* project
+
+This repository contains all of the localized strings for all Cardinal apps. This
 is a CJS package designed to be used in the main process of Electron so that it
 can return strings over IPC and HTTP.
 
