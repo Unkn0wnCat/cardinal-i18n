@@ -31,6 +31,7 @@ module.exports = {
   "reset":                                                                "Reset", // new
   "continue":                                                             "Continue", // new
   "cancel":                                                               "Cancel", // new
+  "quit":                                                                 "Quit", // new
   "menu":                                                                 "Menu",
   "disc":                                                                 "Disc",
   "choose-file":                                                          "Choose file",
@@ -454,6 +455,7 @@ module.exports = {
   "server.app-name":                                                      "Hydra Server",
   "server.location":                                                      "Location",
   "server.uptime":                                                        "Uptime",
+  "server.quit-warning":                                                  "Cardinal Server must be running for other Cardinal apps to use your media. Are you sure you want to quit?",
   
   // navigation
   "server.nav.overview":                                                  "Overview",
