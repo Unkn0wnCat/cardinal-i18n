@@ -45,3 +45,7 @@ Once the server is running, strings can be accessed under the `/api/i18n` route.
 
 To contribute, please submit a pull request. Languages will only be added to the
 Cardinal UI once all strings for the lanauge have been translated.
+
+## License
+
+Licensed under the Mozilla Public License 2.0.
