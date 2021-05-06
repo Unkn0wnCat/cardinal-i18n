@@ -455,7 +455,8 @@ module.exports = {
   "server.app-name":                                                      "Hydra Server",
   "server.location":                                                      "Location",
   "server.uptime":                                                        "Uptime",
-  "server.quit-warning":                                                  "Cardinal Server must be running for other Cardinal apps to use your media. Are you sure you want to quit?",
+  "server.quit-warning-title":                                            "Quit Confirmation",
+  "server.quit-warning-body":                                             "Cardinal Server must be running for other Cardinal apps to use your media. Are you sure you want to quit?",
   
   // navigation
   "server.nav.overview":                                                  "Overview",
