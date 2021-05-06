@@ -103,7 +103,7 @@ module.exports = {
                                                                           <p>The server that you connect to must continue running while using this app.</p>
                                                                           `,
   "server-connect.connection-failed":                                     "Server connection failed.<br>Is the server running on the local area network?",
-  "server-connect.autoconnect-failed":                                    "Could not automatically reconnect to the server.",
+  "server-connect.autoconnect-failed":                                    "Could not automatically reconnect to Cardinal Server.",
   
   // self updater
   "updater.ask-to-update.title":                                          "Update available",
@@ -186,7 +186,7 @@ module.exports = {
   "settings.music-playback.always-load-whole-song":                       "Always load the whole song before playing it. This will add a significant delay when loading a new song, but will prevent intermittent buffering when files are being retrieved over a slow network connection.", // new
   "settings.custom-css.title":                                            "Custom CSS", // new
   "settings.custom-css.notice":                                           "Notice", // new
-  "settings.custom-css.instructions":                                     "If you break something, press <code class='inline win32-only'>Ctrl + Shift + I</code><code class='inline darwin-only'>Cmd + Shift + I</code> and run <code class='inline'>disableUserCss()</code> in the console.", // new
+  "settings.custom-css.instructions":                                     "If you break something, press <code class='inline win32-only'>Ctrl + Alt + I</code><code class='inline darwin-only'>Cmd + Option + I</code> and run <code class='inline'>disableUserCss()</code> in the console.", // new
   "settings.developer.title":                                             "Developer", // new
   "settings.developer.enable-label":                                      "Enable Developer Mode", // new
   "settings.start-page.title":                                            "Start Page", // new
@@ -379,9 +379,9 @@ module.exports = {
   "column.artist_photo":                                                  "Photo",
   "column.artist_date_added":                                             "Added",
   
-  "column.album_title":                                                   "Album",
-  "column.album_year":                                                    "Year",
-  "column.album_artwork":                                                 "Artwork",
+  "column.release_title":                                                 "Album",
+  "column.release_year":                                                  "Year",
+  "column.release_artwork":                                               "Artwork",
   
   "column.track_title":                                                   "Title",
   "column.track_date":                                                    "Year",
