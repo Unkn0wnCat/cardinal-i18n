@@ -1,6 +1,6 @@
 # cardinal-i18n
 
-*This package is part of the [Cardinal apps](https://cardinalapps.xyz).* project
+*This package is part of the [Cardinal apps](https://cardinalapps.xyz)*.
 
 This repository contains all of the localized strings for all Cardinal apps. This
 is a CJS package designed to be used in the main process of Electron so that it
