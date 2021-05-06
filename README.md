@@ -11,6 +11,7 @@ can return strings over IPC and HTTP.
 In the Electron main process, register the IPC listeners on app init.
 
 ```javascript
+const { ipcMain } = require('electron')
 const ipc = require('hydra-i18n').ipc
 ipc.register(ipcMain)
 ```
