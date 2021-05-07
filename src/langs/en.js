@@ -1,6 +1,6 @@
 module.exports = {
   /**
-   * Hydra Client Desktop
+   * Cardinal Desktop Clients
    */
 
   // string used for unit test - this must be the anglicised language name
@@ -26,6 +26,7 @@ module.exports = {
 
   // general
   "app-name":                                                             "Cardinal",
+  "music-app.name":                                                       "Cardinal Music",
   "close":                                                                "Close",
   "save":                                                                 "Save", // new
   "reset":                                                                "Reset", // new
@@ -428,31 +429,31 @@ module.exports = {
   // media feed top picks sentence structures
   "media-feed-block.top-picks.title.default":                             "Music for right now",
   "media-feed-block.top-picks.title.overnight-1":                         "Late night tunes",
-  "media-feed-block.top-picks.title.overnight-2":                         "Music for the night",
-  "media-feed-block.top-picks.title.overnight-3":                         "Keeping it going overnight",
-  "media-feed-block.top-picks.title.overnight-4":                         "Music for night owls",
-  "media-feed-block.top-picks.title.overnight-5":                         "Fill the quiet of the night",
+  "media-feed-block.top-picks.title.overnight-2":                         "Music for tonight",
+  "media-feed-block.top-picks.title.overnight-3":                         "Keeping it going",
+  "media-feed-block.top-picks.title.overnight-4":                         "For us night owls",
+  "media-feed-block.top-picks.title.overnight-5":                         "Staying awake",
   "media-feed-block.top-picks.title.morning-1":                           "Starting the day",
-  "media-feed-block.top-picks.title.morning-2":                           "Enhance your morning vibes",
-  "media-feed-block.top-picks.title.morning-3":                           "Music to get the day started",
+  "media-feed-block.top-picks.title.morning-2":                           "Morning vibes",
+  "media-feed-block.top-picks.title.morning-3":                           "Get the day started",
   "media-feed-block.top-picks.title.morning-4":                           "Morning mood",
-  "media-feed-block.top-picks.title.morning-5":                           "Morning mental stimulation",
+  "media-feed-block.top-picks.title.morning-5":                           "Go get 'em tiger",
   "media-feed-block.top-picks.title.afternoon-1":                         "Afternoon audio",
-  "media-feed-block.top-picks.title.afternoon-2":                         "Midday musical company",
-  "media-feed-block.top-picks.title.afternoon-3":                         "Music for the afternoon",
+  "media-feed-block.top-picks.title.afternoon-2":                         "Midday music",
+  "media-feed-block.top-picks.title.afternoon-3":                         "Peak energy",
   "media-feed-block.top-picks.title.afternoon-4":                         "Feel the afternoon",
-  "media-feed-block.top-picks.title.afternoon-5":                         "Making it through the day",
+  "media-feed-block.top-picks.title.afternoon-5":                         "Keep killing it",
   "media-feed-block.top-picks.title.evening-1":                           "Evening energy",
-  "media-feed-block.top-picks.title.evening-2":                           "Music for this evening",
-  "media-feed-block.top-picks.title.evening-3":                           "Evening soundscapes",
-  "media-feed-block.top-picks.title.evening-4":                           "Music to end the day to",
+  "media-feed-block.top-picks.title.evening-2":                           "Just what you need",
+  "media-feed-block.top-picks.title.evening-3":                           "Winding down",
+  "media-feed-block.top-picks.title.evening-4":                           "Finishing it up",
   "media-feed-block.top-picks.title.evening-5":                           "For this evening",
   
   /**
-   * Hydra Server Desktop
+   * Cardinal Server
    */
   // general
-  "server.app-name":                                                      "Hydra Server",
+  "server.app-name":                                                      "Cardinal Server",
   "server.location":                                                      "Location",
   "server.uptime":                                                        "Uptime",
   "server.quit-warning-title":                                            "Quit Confirmation",
@@ -521,6 +522,11 @@ module.exports = {
   
   // connected devices
   "server.connected-devices.title":                                       "Connected Devices",
+  "server.connected-devices.title":                                       "Connected Devices",
+  "server.connected-devices.state.playing":                               "Playing",
+  "server.connected-devices.state.paused":                                "Paused",
+  "server.connected-devices.method.reference-name":                       "Reference",
+  "server.connected-devices.method.reference-desc":                       "<strong>Playing by reference:</strong> The server told the client where the media file is located, and the client is playing it completely on its own.",
   
   // settings
   "server.settings.title":                                                "Server Settings",
