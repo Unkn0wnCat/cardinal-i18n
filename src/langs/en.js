@@ -522,7 +522,7 @@ module.exports = {
   
   // connected devices
   "server.connected-devices.title":                                       "Connected Devices",
-  "server.connected-devices.title":                                       "Connected Devices",
+  "server.connected-devices.music.subtitle":                              "Now Listening To",
   "server.connected-devices.state.playing":                               "Playing",
   "server.connected-devices.state.paused":                                "Paused",
   "server.connected-devices.method.reference-name":                       "Reference",
