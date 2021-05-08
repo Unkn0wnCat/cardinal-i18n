@@ -525,6 +525,7 @@ module.exports = {
   "server.connected-devices.title":                                       "Connected Devices",
   "server.connected-devices.state.playing":                               "Playing",
   "server.connected-devices.state.paused":                                "Paused",
+  "server.connected-devices.state.stopped":                               "Not Playing",
   "server.connected-devices.method.reference-name":                       "Reference",
   "server.connected-devices.method.reference-desc":                       "Playing by Reference: The server told the client where the media file is located on the network, and the client is playing it completely on its own.",
   
