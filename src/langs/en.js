@@ -26,6 +26,7 @@ module.exports = {
 
   // general
   "app-name":                                                             "Cardinal",
+  "server-app.name":                                                      "Cardinal Server",
   "music-app.name":                                                       "Cardinal Music",
   "close":                                                                "Close",
   "save":                                                                 "Save", // new
@@ -466,7 +467,7 @@ module.exports = {
   "server.nav.settings":                                                  "Settings",
   
   // overview
-  "server.overview.title":                                                "Server Overview",
+  "server.overview.title":                                                "Overview",
   "server.status.title":                                                  "Status",
   "server.status.online":                                                 "Server is online",
   "server.status.offline":                                                "Server is offline",
@@ -522,11 +523,13 @@ module.exports = {
   
   // connected devices
   "server.connected-devices.title":                                       "Connected Devices",
-  "server.connected-devices.music.subtitle":                              "Now Listening To",
   "server.connected-devices.state.playing":                               "Playing",
   "server.connected-devices.state.paused":                                "Paused",
   "server.connected-devices.method.reference-name":                       "Reference",
-  "server.connected-devices.method.reference-desc":                       "<strong>Playing by reference:</strong> The server told the client where the media file is located, and the client is playing it completely on its own.",
+  "server.connected-devices.method.reference-desc":                       "Playing by Reference: The server told the client where the media file is located on the network, and the client is playing it completely on its own.",
+  
+  // connected device
+  "server.connected-device.server.meta":                                  "This is the UI that you are using right now.",
   
   // settings
   "server.settings.title":                                                "Server Settings",
