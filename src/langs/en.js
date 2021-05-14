@@ -507,6 +507,7 @@ module.exports = {
   "server.index-summary.deleted-files-explanation":                       "Files that were once indexed, but now no longer exist, and were therefore removed from the index.",
   "server.index-summary.errored-files":                                   "Errored files",
   "server.index-summary.errored-files-explanation":                       "Files that produced an error while attempting to process their data.",
+  "server.index-summary.view-report":                                     "View Report",
   
   // index stats
   "server.index-stats.title":                                             "Indexed Files",
