@@ -509,7 +509,7 @@ module.exports = {
   "server.index-summary.errored-files-explanation":                       "Files that produced an error while attempting to process their data.",
   "server.index-summary.view-report":                                     "View Report",
   "server.index-options.mode.name":                                       "Mode",
-  "server.index-options.mode.desc":                                       "Quick mode will only add new files and remove deleted files. Deep mode will also check for updated file metadata.",
+  "server.index-options.mode.desc":                                       "Quick mode will only add new files and remove deleted files from the index. Deep mode will also check for updated file metadata.",
   "server.index-options.mode.opts":                                       "Options",
   "server.index-options.mode.opt.quick":                                  "Quick",
   "server.index-options.mode.opt.deep":                                   "Deep",
