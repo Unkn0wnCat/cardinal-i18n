@@ -529,6 +529,7 @@ module.exports = {
   
   // connected devices
   "server.connected-devices.title":                                       "Connected Devices",
+  "server.connected-devices.no-devices":                                  "No other Cardinal apps are using the server.",
   "server.connected-devices.state.playing":                               "Playing",
   "server.connected-devices.state.paused":                                "Paused",
   "server.connected-devices.state.stopped":                               "Not Playing",
