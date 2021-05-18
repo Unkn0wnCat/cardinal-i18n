@@ -411,7 +411,7 @@ module.exports = {
   "media-feed.building-feed":                                             "Looking things up",
   "media-feed.not-enough-music":                                          "Music exploration requires at least 10 albums",
   "media-feed.settings-button":                                           "Balance",
-  "media-feed.shuffle-music.title":                                       "Play 200 Random Songs",
+  "media-feed.shuffle-music.title":                                       "Play Something Good",
   "media-feed.random-album.title":                                        "Play a Random Album",
   "media-feed.shuffle-artist.title":                                      "Play songs From a<br>Random Artist",
   "media-feed.shuffle-music-genre.title":                                 "Play Songs From a<br>Random Genre",
