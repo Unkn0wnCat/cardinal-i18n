@@ -7,7 +7,6 @@
     "test": "tap --reporter=spec --no-coverage"
   },
   "devDependencies": {
-    "axios": "^0.21.1",
     "fastify": "^3.11.0",
     "hydra-test-tools": "github:somebeaver/hydra-test-tools",
     "tap": "^14.11.0"
