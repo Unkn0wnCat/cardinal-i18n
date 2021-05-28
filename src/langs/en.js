@@ -98,7 +98,7 @@ module.exports = {
   "server-connect.logo-title":                                            "Chrip chirp",
   "server-connect.help-c2a":                                              "How do I connect?",
   "server-connect.help-body":                                             `
-                                                                          <p>To use this app, you must have <a href="https://cardinalapp.xyz/cardinal-server" class="external">Cardinal Server</a> running somewhere on your local area network.</p>
+                                                                          <p>To use this app, you must have <a href="https://cardinalapps.xyz/cardinal-server" class="external">Cardinal Server</a> running somewhere on your local area network.</p>
                                                                           <p>Once the server is running, the location information can be found in the server's <strong>Status</strong> widget, and it will look something like:</p>
                                                                           <code>192.168.0.0:0000</code>
                                                                           <p>The <strong>Host</strong> is the part to the left of the colon, usually it's an IP address.</p>
@@ -130,7 +130,7 @@ module.exports = {
   "search-bar.placeholder":                                               "Name, title, year",
   "search-bar.context-menu.clear-history":                                "Clear Search Histroy",
   "search.group-title.tracks":                                            "Songs",
-  "search.group-title.albums":                                            "Albums",
+  "search.group-title.musicReleases":                                     "Releases",
   "search.group-title.artists":                                           "Artists",
   "search.group-title.genres":                                            "Genres",
   "search.group-title.playlists":                                         "Playlists",
