@@ -519,7 +519,7 @@ module.exports = {
   "server.index-stats.music-files":                                       "Music files",
   "server.index-stats.cinema-files":                                      "Movies & TV files",
   "server.index-stats.photo-files":                                       "Photo files",
-  "server.index-stats.document-files":                                    "Document files",
+  "server.index-stats.book-files":                                        "Book files",
   
   // index directories
   "server.index-directories.title":                                       "My Folders",
