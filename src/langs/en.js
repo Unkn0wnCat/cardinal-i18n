@@ -344,7 +344,7 @@ module.exports = {
   // folder structure guide modal
   "folder-structure-guide.title":                                         "Folder Structure Guide",
   "folder-structure-guide.desc-before-examples":                          `<p><strong>When importing files, Cardinal will always prioritize the embedded file metadata that exists.</strong></ul>
-                                                                           <p>However, when metadata is nonexistent or incomplete, Cardinal will try to fill in the missing information using the surrounding folders and files.</p>
+                                                                           <p>However, when metadata is missing, Cardinal will try to fill in the missing information using the surrounding folders and files.</p>
                                                                            <p>For the best import results, adhere to these folder structures.</p>`,
   "folder-structure-guide.example.music.title":                           "Music",
   "folder-structure-guide.example.music.code.artist":                     "Artist Name",
@@ -526,6 +526,7 @@ module.exports = {
   "server.index-directories.subtitle":                                    "Drag n' drop folders into the box to add them to your media",
   "server.index-directories.remove-dir-title":                            "Removing a folder does not remove its media until the next indexing run.",
   "server.index-directories.load-error":                                  "Couldn't load directories.",
+  "server.index-directories.no-dirs-warning":                             "You have indexed files, but no directories. If allowed to run, this operation will deindex all your files. Are you sure you want to continue?",
   
   // connected devices
   "server.connected-devices.title":                                       "Connected Devices",
