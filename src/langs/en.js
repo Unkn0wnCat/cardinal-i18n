@@ -526,7 +526,7 @@ module.exports = {
   "server.index-directories.subtitle":                                    "Drag n' drop folders into the box to add them to your media",
   "server.index-directories.remove-dir-title":                            "Removing a folder does not remove its media until the next indexing run.",
   "server.index-directories.load-error":                                  "Couldn't load directories.",
-  "server.index-directories.no-dirs-warning":                             "You have indexed files, but no directories. If allowed to run, this operation will deindex all your files. Are you sure you want to continue?",
+  "server.index-directories.no-dirs-warning":                             "You currently have indexed files, but now have no folders. If allowed to run, this operation will deindex all your files. Are you sure you want to continue?",
   
   // connected devices
   "server.connected-devices.title":                                       "Connected Devices",
