@@ -533,8 +533,10 @@ module.exports = {
   "server.connected-devices.state.playing":                               "Playing",
   "server.connected-devices.state.paused":                                "Paused",
   "server.connected-devices.state.stopped":                               "Not Playing",
-  "server.connected-devices.method.reference-name":                       "By Reference",
-  "server.connected-devices.method.reference-desc":                       "Playing by Reference: The server told the client where the media file is located on the network, and the client is playing it completely on its own.",
+  "server.connected-devices.method.reference-name":                       "Reference",
+  "server.connected-devices.method.reference-desc":                       `"Reference" playback is when the server tells the client app where the media file is located, and the client plays it on its own.`,
+  "server.connected-devices.method.stream-name":                          "Streaming",
+  "server.connected-devices.method.stream-desc":                          "The server is reading the media file and streaming the data to the client.",
   
   // connected device
   "server.connected-device.server.meta":                                  "This is the UI that you are using right now.",
