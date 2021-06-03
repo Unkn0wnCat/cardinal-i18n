@@ -26,8 +26,8 @@ module.exports = {
 
   // general
   "app-name":                                                             "Cardinal",
-  "server-app.name":                                                      "Cardinal Server",
-  "music-app.name":                                                       "Cardinal Music",
+  "cardinalserver":                                                       "Cardinal Server",
+  "cardinalmusic":                                                        "Cardinal Music",
   "close":                                                                "Close",
   "save":                                                                 "Save", // new
   "reset":                                                                "Reset", // new
@@ -336,9 +336,8 @@ module.exports = {
   "attributions.fonts":                                                   '<p>And these fonts.</p>',
   
   // about modal
-  "about.title":                                                          "About Cardinal",
   "about.body":                                                           `<p>Cardinal is designed and developed by <a href="https://github.com/somebeaver" class="external">somebeaver 🌴</a></p>
-                                                                          <p>Get involved with the project on <a href="https://github.com/somebeaver" class="external">Github</a></p>`,
+                                                                          <p>Get involved with the project on <a href="https://github.com/somebeaver/cardinal-project" class="external">Github</a></p>`,
   
   // folder structure guide modal
   "folder-structure-guide.title":                                         "Folder Structure Guide",
