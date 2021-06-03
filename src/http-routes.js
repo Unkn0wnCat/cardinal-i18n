@@ -11,7 +11,7 @@ exports.register = (server) => {
    * 
    * Returns all strings from all languages.
    */
-  server.get(`${apiBasePath}/all`, async (request, reply) => {
+  server.get(`${apiBasePath}`, async (request, reply) => {
     return {
       'en': require('./langs/en.js'),
       'fr': require('./langs/fr.js'),
