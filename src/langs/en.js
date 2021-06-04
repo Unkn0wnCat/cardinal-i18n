@@ -372,6 +372,7 @@ module.exports = {
                                                                             <li><a href="https://fonts.google.com/specimen/Yantramanav" class="external">Yantramanav</a></li>
                                                                             <li><a href="https://fontawesome.com/" class="external">Font Awesome</a></li>
                                                                           </ul>`,
+  "open-source.project-link":                                             `<a href="https://github.com/somebeaver/Cardinal-Project" class="external">See more about the project.</a>`,
   
   // about modal
   "about.body":                                                           `<p>Cardinal is designed and developed by <a href="https://github.com/somebeaver" class="external">somebeaver 🌴</a></p>
