@@ -357,7 +357,7 @@ module.exports = {
                                                                             <li><a href="https://howlerjs.com/" class="external">Howler.js</a></li>
                                                                             <li><a href="https://swiperjs.com/" class="external">Swiper</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/music-metadata" class="external">music-metadata</a></li>
-                                                                            <li><a href="https://www.npmjs.com/package/ip" class="external">IP/a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/ip" class="external">IP</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/glob" class="external">Glob</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/md5-file" class="external">md5-file</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/dotenv" class="external">dotenv</a></li>
