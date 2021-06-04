@@ -78,7 +78,9 @@ module.exports = {
   "system-menu.toggle-queue":                                             "Toggle Queue",
   "system-menu.show-welcome":                                             "Show Welcome Message",
   "system-menu.learn-more":                                               "Learn More",
-  "system-menu.attributions":                                             "Open Source and Other Attributions",
+  "system-menu.website":                                                  "Cardinal Website",
+  "system-menu.attributions":                                             "Attributions",
+  "system-menu.open-source":                                              "Open Source",
   "system-menu.terms-and-conditions":                                     "Terms and Conditions",
   "system-menu.privacy-policy":                                           "Privacy Policy",
   "system-menu.cut":                                                      "Cut",
@@ -337,7 +339,7 @@ module.exports = {
   
   // about modal
   "about.body":                                                           `<p>Cardinal is designed and developed by <a href="https://github.com/somebeaver" class="external">somebeaver 🌴</a></p>
-                                                                          <p>Get involved with the project on <a href="https://github.com/somebeaver/cardinal-project" class="external">Github</a></p>`,
+                                                                          <p>Get involved with the project on <a href="https://github.com/somebeaver/cardinal-project" class="external">Github</a> and <a href="https://old.reddit.com/r/cardinalapps/" class="external">Reddit</a></p>`,
   
   // folder structure guide modal
   "folder-structure-guide.title":                                         "Folder Structure Guide",
