@@ -336,7 +336,7 @@ module.exports = {
   "open-source.first-party":                                              `<p>These open source libraries were developed for Cardinal:</p>
                                                                           <ul>
                                                                             <li><a href="http://github.com/somebeaver/Lowrider.js" class="external">Lowrider.js</a></li>
-                                                                            <li><a href="http://github.com/somebeaver/double-u.js" class="external">double-u</a></li>
+                                                                            <li><a href="http://github.com/somebeaver/double-u" class="external">double-u</a></li>
                                                                             <li><a href="http://github.com/somebeaver/Bridge.js" class="external">Bridge.js</a></li>
                                                                             <li><a href="http://github.com/somebeaver/Boogietime.js" class="external">Boogietime.js</a></li>
                                                                             <li><a href="http://github.com/somebeaver/sqleary.js" class="external">sqleary.js</a></li>
@@ -358,7 +358,7 @@ module.exports = {
                                                                             <li><a href="https://swiperjs.com/" class="external">Swiper</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/music-metadata" class="external">music-metadata</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/ip" class="external">IP</a></li>
-                                                                            <li><a href="https://www.npmjs.com/package/glob" class="external">Glob</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/fast-glob" class="external">fast-glob</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/md5-file" class="external">md5-file</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/dotenv" class="external">dotenv</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/humanize-duration" class="external">humanize-duration</a></li>
