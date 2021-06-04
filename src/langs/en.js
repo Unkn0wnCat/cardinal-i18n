@@ -332,10 +332,46 @@ module.exports = {
   "view.explore.title":                                                   "Explore My Music",
   
   // attributions modal
-  "attributions.title":                                                   "Attributions",
-  "attributions.subtitle":                                                "Open source and other credits",
-  "attributions.open-source":                                             '<p>Cardinal uses the following open source software.</p>',
-  "attributions.fonts":                                                   '<p>And these fonts.</p>',
+  "open-source.title":                                                    "Open Source Software",
+  "open-source.first-party":                                              `<p>These open source libraries were developed for Cardinal:</p>
+                                                                          <ul>
+                                                                            <li><a href="http://github.com/somebeaver/Lowrider.js" class="external">Lowrider.js</a></li>
+                                                                            <li><a href="http://github.com/somebeaver/double-u.js" class="external">double-u</a></li>
+                                                                            <li><a href="http://github.com/somebeaver/Bridge.js" class="external">Bridge.js</a></li>
+                                                                            <li><a href="http://github.com/somebeaver/Boogietime.js" class="external">Boogietime.js</a></li>
+                                                                            <li><a href="http://github.com/somebeaver/sqleary.js" class="external">sqleary.js</a></li>
+                                                                            <li><a href="http://github.com/somebeaver/router.js" class="external">router.js</a></li>
+                                                                            <li><a href="http://github.com/somebeaver/html.js" class="external">html.js</a></li>
+                                                                            <li><a href="http://github.com/somebeaver/cardinal-indexing-service" class="external">cardinal-indexing-service</a></li>
+                                                                          </ul>`,
+  "open-source.third-party":                                              `<p>Cardinal relies on these third party open source projects:</p>
+                                                                          <ul>
+                                                                            <li><a href="https://www.electronjs.org/" class="external">Electron</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/sqlite3" class="external">sqlite3</a></li>
+                                                                            <li><a href="https://www.fastify.io/" class="external">Fastify</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/ws" class="external">ws.js</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/sharp" class="external">sharp</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/webpack" class="external">webpack</a></li>
+                                                                            <li><a href="https://github.com/electron-userland/electron-builder" class="external">electron-builder</a></li>
+                                                                            <li><a href="https://github.com/electron/electron-notarize" class="external">electron-notarize</a></li>
+                                                                            <li><a href="https://howlerjs.com/" class="external">Howler.js</a></li>
+                                                                            <li><a href="https://swiperjs.com/" class="external">Swiper</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/music-metadata" class="external">music-metadata</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/ip" class="external">IP/a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/glob" class="external">Glob</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/md5-file" class="external">md5-file</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/dotenv" class="external">dotenv</a></li>
+                                                                            <li><a href="https://www.npmjs.com/package/humanize-duration" class="external">humanize-duration</a></li>
+                                                                            <li><a href="https://github.com/cowboy/javascript-route-matcher" class="external">javascript-route-matcher</a></li>
+                                                                            <li><a href="https://node-tap.org/" class="external">node-tap</a></li>
+                                                                          </ul>`,
+  
+  "open-source.fonts":                                                    `<p>And these fonts:</p>
+                                                                          <ul>
+                                                                            <li><a href="https://fonts.google.com/specimen/Open+Sans" class="external">Open Sans</a></li>
+                                                                            <li><a href="https://fonts.google.com/specimen/Yantramanav" class="external">Yantramanav</a></li>
+                                                                            <li><a href="https://fontawesome.com/" class="external">Font Awesome</a></li>
+                                                                          </ul>`,
   
   // about modal
   "about.body":                                                           `<p>Cardinal is designed and developed by <a href="https://github.com/somebeaver" class="external">somebeaver 🌴</a></p>
