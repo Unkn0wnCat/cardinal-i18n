@@ -382,13 +382,14 @@ module.exports = {
   "folder-structure-guide.desc-before-examples":                          `<p><strong>When importing files, Cardinal will always prioritize the embedded file metadata that exists.</strong></ul>
                                                                            <p>However, when metadata is missing, Cardinal will try to fill in the missing information using the surrounding folders and files.</p>
                                                                            <p>For the best import results, adhere to these folder structures.</p>`,
-  "folder-structure-guide.example.music.title":                           "Structures",
+  "folder-structure-guide.example.music.title":                           "Music files",
   "folder-structure-guide.example.music.code.artist":                     "Artist Name",
   "folder-structure-guide.example.music.code.album":                      "Album Name",
   "folder-structure-guide.example.music.code.disc":                       "Disc 01 (or CD 01)",
   "folder-structure-guide.example.music.code.song":                       "01 - Song name.mp3",
   "folder-structure-guide.example.music.code.cover-art":                  "cover.jpg",
   "folder-structure-guide.supported-types.title":                         "Supported File Types",
+  "folder-structure-guide.supported-types.music-files":                   "Music files",
   "folder-structure-guide.supported-types.artwork":                       "Album art",
 
   // metadata editor
