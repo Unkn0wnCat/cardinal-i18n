@@ -388,9 +388,8 @@ module.exports = {
   "folder-structure-guide.example.music.code.disc":                       "Disc 01 (or CD 01)",
   "folder-structure-guide.example.music.code.song":                       "01 - Song name.mp3",
   "folder-structure-guide.example.music.code.cover-art":                  "cover.jpg",
-  "folder-structure-guide.example.tv-movies.title":                       "TV & Movies",
   "folder-structure-guide.supported-types.title":                         "Supported File Types",
-  "folder-structure-guide.supported-types.artwork":                       "Album art & cinema posters",
+  "folder-structure-guide.supported-types.artwork":                       "Album art",
 
   // metadata editor
   "metadata-editor.editing-artist.title":                                 "Editing Artist",
