@@ -141,7 +141,7 @@ module.exports = {
   "nav.music.explore":                                                    "Explore Music",
   "nav.music.title":                                                      "Music Library",
   "nav.music.artists":                                                    "Artists",
-  "nav.music.albums":                                                     "Albums",
+  "nav.music.releases":                                                   "Releases",
   "nav.music.tracks":                                                     "Songs",
   "nav.music.genres":                                                     "Genres",
   "nav.music.playlists":                                                  "Playlists",
@@ -190,7 +190,7 @@ module.exports = {
   "settings.music-playback.always-load-whole-song":                       "Always load the whole song before playing it. This will add a significant delay when loading a new song, but will prevent intermittent buffering when files are being retrieved over a slow network connection.", // new
   "settings.custom-css.title":                                            "Custom CSS", // new
   "settings.custom-css.notice":                                           "Notice", // new
-  "settings.custom-css.instructions":                                     "If you break something, press <code class='inline win32-only'>Ctrl+Alt+I</code><code class='inline darwin-only'>Cmd+Option+I</code> and run <code class='inline'>disableUserCss()</code> in the console.", // new
+  "settings.custom-css.instructions":                                     "If you break something, press <code class='inline win32-only'>Ctrl+Alt+I</code><code class='inline darwin-only'>Cmd+Option+I</code> and run <code class='inline'>disableCustomCSS()</code> in the console.", // new
   "settings.developer.title":                                             "Developer", // new
   "settings.developer.enable-label":                                      "Enable Developer Mode", // new
   "settings.start-page.title":                                            "Start Page", // new
@@ -221,8 +221,15 @@ module.exports = {
   
   // single artist
   "view.artist.favorite-tracks.title":                                    "Favorite Songs",
-  "view.artist.top-tracks.title":                                         "Top Songs",
-  "view.artist.albums.title":                                             "Albums",
+  "view.artist.most-played.title":                                        "Most Played Songs",
+  "view.artist.release-type.albums":                                      "Albums",
+  "view.artist.release-type.singles":                                     "Singles",
+  "view.artist.release-type.eps":                                         "EPs",
+  "view.artist.release-type.compilations":                                "Compilations",
+  "view.artist.release-type.soundtrack":                                  "Soundtracks",
+  "view.artist.release-type.live":                                        "Live",
+  "view.artist.release-type.remix":                                       "Remixes",
+  "view.artist.release-type.other":                                       "Other Releases",
   "view.artist.similar-artists.title":                                    "Similar Artists",
   
   // albums view
