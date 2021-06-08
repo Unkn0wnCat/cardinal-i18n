@@ -212,7 +212,7 @@ module.exports = {
   "breadcrumbs.explore":                                                  "Explore",
   "breadcrumbs.music-library":                                            "Music Library",
   "breadcrumbs.album":                                                    "Album",
-  "breadcrumbs.artist":                                                   "Artist",
+  "breadcrumbs.music-release":                                            "Release",
   "breadcrumbs.genres":                                                   "Genres",
   "breadcrumbs.genre":                                                    "Genre",
   "breadcrumbs.playlists":                                                "Playlists",
