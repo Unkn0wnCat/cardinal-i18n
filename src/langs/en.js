@@ -308,6 +308,7 @@ module.exports = {
   "album-block.context-menu.edit-album":                                  "Edit Album", // new
   
   // release metadata
+  "release-metadata.artist":                                              "Artist", // new
   "release-metadata.year":                                                "Released", // new
   "release-metadata.average-bitrate":                                     "Average Bitrate", // new
   "release-metadata.file-type":                                           "Filetype", // new
