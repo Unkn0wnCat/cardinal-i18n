@@ -44,6 +44,8 @@ module.exports = {
   "toggle-favorite":                                                      "Add/remove from favorites",
   "play-count":                                                           "Play count",
   "no-content":                                                           "No content",
+  "year":                                                                 "Year",
+  "play":                                                                 "Play",
 
   // music app general
   "music-app.context-menu.group-name":                                    "Cardinal",
@@ -304,11 +306,13 @@ module.exports = {
   "album-block.context-menu.add-to-queue":                                "Add Album to Queue",
   "album-block.context-menu.add-to-playlist":                             "Add Album to Playlist",
   "album-block.context-menu.edit-album":                                  "Edit Album", // new
-  "album-block.metadata.year":                                            "Released", // new
-  "album-block.metadata.average-bitrate":                                 "Average Bitrate", // new
-  "album-block.metadata.file-type":                                       "Filetype", // new
-  "album-block.metadata.file-types":                                      "Filetypes", // new
-  "album-block.metadata.duration":                                        "Duration", // new
+  
+  // release metadata
+  "release-metadata.year":                                                "Released", // new
+  "release-metadata.average-bitrate":                                     "Average Bitrate", // new
+  "release-metadata.file-type":                                           "Filetype", // new
+  "release-metadata.file-types":                                          "Filetypes", // new
+  "release-metadata.duration":                                            "Duration", // new
 
   // playlists
   "playlist-list.empty-message":                                          "Create Playlist",
