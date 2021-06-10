@@ -46,6 +46,7 @@ module.exports = {
   "no-content":                                                           "No content",
   "year":                                                                 "Year",
   "play":                                                                 "Play",
+  "version":                                                              "Version",
 
   // music app general
   "music-app.context-menu.group-name":                                    "Cardinal",
