@@ -127,7 +127,7 @@ module.exports = {
   // warnings/notifications/dialogues
   "media-keys-need-permission.notification.title":                        "Permission Required",
   "media-keys-need-permission.notification.message":                      "<p>Cardinal needs permission to use the media keys on your keyboard.</p><p>Restart the app after granting permission.</p>",
-  "notification.cannot-load-music-file.message":                          "Could not play song.\n\n{{song}}\n\nContinue to next song?</p>",
+  "notification.cannot-load-music-file.message":                          "Could not play song.\n\n{{song}}\n\nContinue to next song?",
   
   // search
   "search-bar.placeholder":                                               "Name, title, year",
