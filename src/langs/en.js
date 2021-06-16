@@ -169,6 +169,7 @@ module.exports = {
   "settings.tab-name-theme":                                              "Theme",
   "settings.tab-name-advanced":                                           "Advanced",
   "settings.language.title":                                              "Language",
+  "settings.confirm-electron-quit":                                       "Ask me before quitting",
   "settings.local-files.title":                                           "Files on my Computer",
   "settings.local-files.instructions":                                    "Drag n' drop folders into the box to add them to your media.",
   "settings.local-files.importer-msg":                                    "New folders will automatically be imported after the settings are closed.",
