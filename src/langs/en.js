@@ -199,6 +199,7 @@ module.exports = {
   "settings.start-page.title":                                            "Start Page", // new
   "settings.updates.title":                                               "Updates", // new
   "settings.updates.auto-check-label":                                    "Automatically check for updates", // new
+  "settings.updates.manual-check-label":                                  "Check now", // new
   
   // importer
   "importer.status.no-music":                                             "Add media",
