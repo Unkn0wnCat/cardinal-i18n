@@ -165,6 +165,7 @@ module.exports = {
   "settings.main-title":                                                  "Settings",
   "settings.tab-name-general":                                            "General",
   "settings.tab-name-music-playback":                                     "Music Playback", // new
+  "settings.tab-name-window":                                             "Window", // new
   "settings.tab-name-theme":                                              "Theme",
   "settings.tab-name-advanced":                                           "Advanced",
   "settings.language.title":                                              "Language",
@@ -200,6 +201,8 @@ module.exports = {
   "settings.updates.title":                                               "Updates", // new
   "settings.updates.auto-check-label":                                    "Automatically check for updates", // new
   "settings.updates.manual-check-label":                                  "Check now", // new
+  "settings.window.title":                                                "Behaviour", // new
+  "settings.window.autoclose-on-blur":                                    "Automatically close the window when focus is lost", // new
   
   // importer
   "importer.status.no-music":                                             "Add media",
