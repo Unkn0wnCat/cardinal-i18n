@@ -524,6 +524,10 @@ module.exports = {
   "server.status.connecting":                                             "Connecting...",
   "server.status.loading":                                                "Loading...",
   
+
+  "server.actions.title":                                                 "Actions",
+  "server.actions.shut-down":                                             "Shut down",
+  
   // indexer
   "server.indexer.title":                                                 "File Index",
   "server.index-controls.state.internal-error":                           "The indexing service encountered an internal error. This is heartbreaking. 😭",
