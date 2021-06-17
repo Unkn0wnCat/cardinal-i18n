@@ -218,6 +218,7 @@ module.exports = {
   // breadcrumbs
   "breadcrumbs.explore":                                                  "Explore",
   "breadcrumbs.music-library":                                            "Music Library",
+  "breadcrumbs.artist":                                                   "Artist",
   "breadcrumbs.album":                                                    "Album",
   "breadcrumbs.music-release":                                            "Release",
   "breadcrumbs.genres":                                                   "Genres",
