@@ -27,7 +27,9 @@ module.exports = {
   // general
   "app-name":                                                             "Cardinal",
   "cardinalserver":                                                       "Cardinal Server",
+  "cardinalserver-short":                                                 "Server",
   "cardinalmusic":                                                        "Cardinal Music",
+  "cardinalmusic-short":                                                  "Music",
   "close":                                                                "Close",
   "save":                                                                 "Save", // new
   "reset":                                                                "Reset", // new
