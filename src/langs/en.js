@@ -606,4 +606,10 @@ module.exports = {
   
   // settings
   "server.settings.title":                                                "Server Settings",
+
+  // apps
+  "server.apps.title":                                                    "Apps",
+  "server.apps.help":                                                     `<p>The Server includes web apps that can be used by browsers on your desktop, tablet, and smartphone.</p>
+                                                                           <p>To install an app to your iOS or Android device, just add it to your home screen from your browser.</p>
+                                                                           <p>There are also installers for macOS and Windows available on the <a href="https://cardinalapps.xyz" class="external">Cardinal website</a>.</p>`,
 }
