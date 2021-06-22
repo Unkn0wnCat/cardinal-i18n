@@ -117,7 +117,7 @@ module.exports = {
   
   // self updater
   "updater.ask-to-update.title":                                          "Update available",
-  "updater.ask-to-update.msg":                                            "Would you like to update now? The app will restart.\n\nPlease be patient and do not quit Cardinal. A progress indicator will be available soon.",
+  "updater.ask-to-update.msg":                                            "Would you like to update now? The app will restart.\n\n",
   "updater.ask-to-update.btn.yes":                                        "Update Now",
   "updater.ask-to-update.btn.no":                                         "Later",
   "updater.no-updates.title":                                             "No update available",
@@ -208,14 +208,8 @@ module.exports = {
   "settings.window.title":                                                "Behaviour", // new
   "settings.window.autoclose-on-blur":                                    "Automatically close the window when focus is lost", // new
   
-  // importer
-  "importer.status.no-music":                                             "Add media",
-  "importer.status.scanning-local":                                       "Scanning folder...",
-  "importer.status.import-done":                                          "Finished importing",
-  "importer.announcer.processing-n-files":                                "Processing {{n}} of {{total}}",
-  "importer.announcer.imported-file":                                     "Imported {{file}}",
-  "importer.announcer.skipped-file":                                      "Skipped {{file}}",
-  "importer.main-dot-menu.manual-local-import":                           "Refresh local files",
+  // playback-controls
+  "playback-controls.waveform-error-message":                             "Waveform not available",
   
   // breadcrumbs
   "breadcrumbs.explore":                                                  "Explore",
@@ -611,7 +605,6 @@ module.exports = {
   "server.apps.title":                                                    "Apps",
   "server.apps.help.title":                                               "Using Client Apps",
   "server.apps.help":                                                     `<p>The Server includes web apps that can be used by browsers on your desktop, tablet, and smartphone.</p>
-                                                                           <p>To use an app on your iOS or Android device, just add it to your home screen from your browser.</p>
                                                                            <p>There are also native installers for macOS and Windows available on the <a href="https://cardinalapps.xyz" class="external">Cardinal website</a>.</p>`,
   "server.apps.help.locations.title":                                     "Web App Locations",
   "server.apps.help.location.music.prefix":                               "<strong>Music</strong>",
