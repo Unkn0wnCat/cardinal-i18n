@@ -611,7 +611,7 @@ module.exports = {
   "server.apps.title":                                                    "Apps",
   "server.apps.help.title":                                               "Using Client Apps",
   "server.apps.help":                                                     `<p>The Server includes web apps that can be used by browsers on your desktop, tablet, and smartphone.</p>
-                                                                           <p>To install an app on your iOS or Android device, just add it to your home screen from your browser.</p>
+                                                                           <p>To use an app on your iOS or Android device, just add it to your home screen from your browser.</p>
                                                                            <p>There are also native installers for macOS and Windows available on the <a href="https://cardinalapps.xyz" class="external">Cardinal website</a>.</p>`,
   "server.apps.help.locations.title":                                     "Web App Locations",
   "server.apps.help.location.music.prefix":                               "<strong>Music</strong>",
