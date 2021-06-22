@@ -490,13 +490,13 @@ module.exports = {
   "media-feed-block.top-picks.title.overnight-1":                         "Late night tunes",
   "media-feed-block.top-picks.title.overnight-2":                         "Music for tonight",
   "media-feed-block.top-picks.title.overnight-3":                         "Keeping it going",
-  "media-feed-block.top-picks.title.overnight-4":                         "For us night owls",
+  "media-feed-block.top-picks.title.overnight-4":                         "For the night owls",
   "media-feed-block.top-picks.title.overnight-5":                         "Staying awake",
   "media-feed-block.top-picks.title.morning-1":                           "Starting the day",
   "media-feed-block.top-picks.title.morning-2":                           "Morning vibes",
-  "media-feed-block.top-picks.title.morning-3":                           "Get the day started",
+  "media-feed-block.top-picks.title.morning-3":                           "Getting the day started",
   "media-feed-block.top-picks.title.morning-4":                           "Morning mood",
-  "media-feed-block.top-picks.title.morning-5":                           "Go get 'em tiger",
+  "media-feed-block.top-picks.title.morning-5":                           "Lets do this",
   "media-feed-block.top-picks.title.afternoon-1":                         "Afternoon audio",
   "media-feed-block.top-picks.title.afternoon-2":                         "Midday music",
   "media-feed-block.top-picks.title.afternoon-3":                         "Peak energy",
@@ -609,10 +609,10 @@ module.exports = {
 
   // apps
   "server.apps.title":                                                    "Apps",
-  "server.apps.help.title":                                               "Using Cardinal Apps",
+  "server.apps.help.title":                                               "Using Client Apps",
   "server.apps.help":                                                     `<p>The Server includes web apps that can be used by browsers on your desktop, tablet, and smartphone.</p>
                                                                            <p>To install an app on your iOS or Android device, just add it to your home screen from your browser.</p>
-                                                                           <p>There are also installers for macOS and Windows available on the <a href="https://cardinalapps.xyz" class="external">Cardinal website</a>.</p>`,
-  "server.apps.help.locations.title":                                     "App Locations",
+                                                                           <p>There are also native installers for macOS and Windows available on the <a href="https://cardinalapps.xyz" class="external">Cardinal website</a>.</p>`,
+  "server.apps.help.locations.title":                                     "Web App Locations",
   "server.apps.help.location.music.prefix":                               "<strong>Music</strong>",
 }
