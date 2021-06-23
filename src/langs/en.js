@@ -499,7 +499,7 @@ module.exports = {
   "media-feed-block.top-picks.title.evening-1":                           "Evening energy",
   "media-feed-block.top-picks.title.evening-2":                           "Just what you need",
   "media-feed-block.top-picks.title.evening-3":                           "Winding down",
-  "media-feed-block.top-picks.title.evening-4":                           "Finishing it up",
+  "media-feed-block.top-picks.title.evening-4":                           "For the moment",
   "media-feed-block.top-picks.title.evening-5":                           "For this evening",
   
   /**
