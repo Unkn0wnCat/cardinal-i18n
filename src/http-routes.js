@@ -15,6 +15,7 @@ exports.register = (server) => {
     return {
       'en': require('./langs/en.js'),
       'fr': require('./langs/fr.js'),
+      'de': require('./langs/de.js'),
     }
   })
 }
