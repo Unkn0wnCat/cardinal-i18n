@@ -225,45 +225,45 @@ module.exports = {
   // artists view
   "view.artists.title":                                                   "Künstler",
   
-  /*
+  
   // single artist
-  "view.artist.favorite-tracks.title":                                    "Favorite Songs",
-  "view.artist.most-played.title":                                        "Most Played Songs",
-  "view.artist.release-type.albums":                                      "Albums",
+  "view.artist.favorite-tracks.title":                                    "Lieblingssongs",
+  "view.artist.most-played.title":                                        "Meist gespielte Songs",
+  "view.artist.release-type.albums":                                      "Alben",
   "view.artist.release-type.singles":                                     "Singles",
   "view.artist.release-type.eps":                                         "EPs",
   "view.artist.release-type.compilations":                                "Compilations",
   "view.artist.release-type.soundtrack":                                  "Soundtracks",
   "view.artist.release-type.live":                                        "Live",
   "view.artist.release-type.remix":                                       "Remixes",
-  "view.artist.release-type.other":                                       "Other Releases",
-  "view.artist.similar-artists.title":                                    "Similar Artists",
+  "view.artist.release-type.other":                                       "Andere Veröffentlichungen",
+  "view.artist.similar-artists.title":                                    "Ähnliche Künstler",
   
   // albums view
-  "view.empty-message":                                                   "Add music",
-  "view.albums.title":                                                    "Albums",
+  "view.empty-message":                                                   "Musik hinzufügen",
+  "view.albums.title":                                                    "Alben",
   "view.albums.control-group-filter-title":                               "Filter",
   "view.albums.control-group-filter-option-genre":                        "Genre",
-  "view.albums.control-group.order.title":                                "Order",
+  "view.albums.control-group.order.title":                                "Sortierung",
   "view.albums.control-group.order.option.name":                          "Name",
-  "view.albums.control-group.order.option.year":                          "Year",
-  "view.albums.control-group.name-asc.aria-assertive-change-message":     "Albums sorted by name in ascending order",
-  "view.albums.control-group.name-desc.aria-assertive-change-message":    "Albums sorted by name in descending order",
-  "view.albums.control-group.year-asc.aria-assertive-change-message":     "Albums sorted by year in ascending order",
-  "view.albums.control-group.year-desc.aria-assertive-change-message":    "Albums sorted by year in descending order",
-  "view.artists.control-group.name-asc.aria-assertive-change-message":    "Artists sorted by name in ascending order",
-  "view.artists.control-group.name-desc.aria-assertive-change-message":   "Artists sorted by name in descending order",
+  "view.albums.control-group.order.option.year":                          "Jahr",
+  "view.albums.control-group.name-asc.aria-assertive-change-message":     "Alben sortiert nach Namen in aufsteigender Richtung",
+  "view.albums.control-group.name-desc.aria-assertive-change-message":    "Alben sortiert nach Namen in absteigender Richtung",
+  "view.albums.control-group.year-asc.aria-assertive-change-message":     "Alben sortiert nach Jahr in aufsteigender Richtung",
+  "view.albums.control-group.year-desc.aria-assertive-change-message":    "Alben sortiert nach Jahr in absteigender Richtung",
+  "view.artists.control-group.name-asc.aria-assertive-change-message":    "Künstler sortiert nach Namen in aufsteigender Richtung",
+  "view.artists.control-group.name-desc.aria-assertive-change-message":   "Künstler sortiert nach Namen in absteigender Richtung",
 
   // control group
-  "control-group.cycle-button.name-asc-desc":                             "Order by name",
-  "control-group.cycle-button.year-asc-desc":                             "Order by year",
-  "control-group.asc":                                                    "Ascending",
-  "control-group.desc":                                                   "Descending",
+  "control-group.cycle-button.name-asc-desc":                             "Nach Namen sortieren",
+  "control-group.cycle-button.year-asc-desc":                             "Nach Jahr sortieren",
+  "control-group.asc":                                                    "Aufsteigend",
+  "control-group.desc":                                                   "Absteigend",
 
   // single album
-  "view.album.artist.prefix":                                             "By ",
-  "view.album.song-count":                                                "{{n}} songs",
-  "view.album.related.title":                                             "Albums by ",
+  "view.album.artist.prefix":                                             "Von ",
+  "view.album.song-count":                                                "{{n}} Songs",
+  "view.album.related.title":                                             "Alben von ",
  
   // tracks view
   "view.tracks.title":                                                    "Songs",
@@ -272,85 +272,85 @@ module.exports = {
   "view.genres.title":                                                    "Genres",
   
   // single genre view
-  "view.genre.artist-grid-title":                                         "{{genre}} Artists",
-  "view.genre.album-grid-title":                                          "{{genre}} Albums",
+  "view.genre.artist-grid-title":                                         "{{genre}} Künstler",
+  "view.genre.album-grid-title":                                          "{{genre}} Alben",
   
   // genre tag
-  "genre-tag.context-menu.edit-genre":                                    "Edit Genre",
+  "genre-tag.context-menu.edit-genre":                                    "Genre bearbeiten",
 
   // playlists view
   "view.playlists.title":                                                 "Playlists",
   
   // single playlist view
-  "view.playlist.artists-in-playlist-title":                              "Artists in this Playlist",
-  "view.playlist.albums-in-playlist-title":                               "Albums in this Playlist",
-  "view.playlist.tracks-in-playlist-title":                               "Songs in this Playlist",
-  "view.playlist.play-button-c2a":                                        "Play",
+  "view.playlist.artists-in-playlist-title":                              "Künstler in dieser Playlist",
+  "view.playlist.albums-in-playlist-title":                               "Alben in dieser Playlist",
+  "view.playlist.tracks-in-playlist-title":                               "Songs in dieser Playlist",
+  "view.playlist.play-button-c2a":                                        "Abspielen",
   
   // track list
-  "track-list.empty-playlist":                                            "Empty Playlist",
-  "track-table.playlist-stats.tracks":                                    "{{n}} <sub>songs</sub>",
-  "track-table.playlist-stats.tracks-singular":                           "{{n}} <sub>song</sub>", // new
+  "track-list.empty-playlist":                                            "Leere Playlist",
+  "track-table.playlist-stats.tracks":                                    "{{n}} <sub>Songs</sub>",
+  "track-table.playlist-stats.tracks-singular":                           "{{n}} <sub>Song</sub>",
 
   // track block
-  "track-block.context-menu.play-track":                                  "Play Song",
-  "track-block.context-menu.play-next":                                   "Play Song Next",
-  "track-block.context-menu.add-to-queue":                                "Add Song to Queue",
-  "track-block.context-menu.add-to-playlist":                             "Add Song to Playlist",
-  "track-block.context-menu.edit-track":                                  "Edit Song", // new
-  "track-block.context-menu.remove-from-playlist":                        "Remove from Playlist",
+  "track-block.context-menu.play-track":                                  "Song abspielen",
+  "track-block.context-menu.play-next":                                   "Song als Nächstes abspielen",
+  "track-block.context-menu.add-to-queue":                                "Song zur Warteschlange hinzufügen",
+  "track-block.context-menu.add-to-playlist":                             "Song zu Playlist hinzufügen",
+  "track-block.context-menu.edit-track":                                  "Song bearbeiten",
+  "track-block.context-menu.remove-from-playlist":                        "Aus Playlist entfernen",
 
   // artist block
-  "artist-block.context-menu.shuffle-artist":                             "Shuffle Artist", // new
-  "artist-block.context-menu.edit-artist":                                "Edit Artist", // new
+  "artist-block.context-menu.shuffle-artist":                             "Zufällige Künstlerwiedergabe",
+  "artist-block.context-menu.edit-artist":                                "Künstler bearbeiten",
 
   // album block
   "album-block.context-menu.group-name":                                  "Album",
-  "album-block.context-menu.play-album":                                  "Play Album",
-  "album-block.context-menu.play-next":                                   "Play Album Next",
-  "album-block.context-menu.add-to-queue":                                "Add Album to Queue",
-  "album-block.context-menu.add-to-playlist":                             "Add Album to Playlist",
-  "album-block.context-menu.edit-album":                                  "Edit Album", // new
+  "album-block.context-menu.play-album":                                  "Album abspielen",
+  "album-block.context-menu.play-next":                                   "Album als Nächstes abspielen",
+  "album-block.context-menu.add-to-queue":                                "Album zur Warteschlange hinzufügen",
+  "album-block.context-menu.add-to-playlist":                             "Album zu Playlist hinzufügen",
+  "album-block.context-menu.edit-album":                                  "Album bearbeiten",
   
   // release metadata
-  "release-metadata.artist":                                              "Artist", // new
-  "release-metadata.year":                                                "Released", // new
-  "release-metadata.average-bitrate":                                     "Average Bitrate", // new
-  "release-metadata.file-type":                                           "Filetype", // new
-  "release-metadata.file-types":                                          "Filetypes", // new
-  "release-metadata.duration":                                            "Duration", // new
+  "release-metadata.artist":                                              "Künstler",
+  "release-metadata.year":                                                "Veröffentlicht",
+  "release-metadata.average-bitrate":                                     "Durchschnittliche Bitrate",
+  "release-metadata.file-type":                                           "Dateityp",
+  "release-metadata.file-types":                                          "Dateitypen",
+  "release-metadata.duration":                                            "Länge",
 
   // playlists
-  "playlist-list.empty-message":                                          "Create Playlist",
-  "playlist-list.form.create.button-title":                               "Create new Playlist",
+  "playlist-list.empty-message":                                          "Playlist erstellen",
+  "playlist-list.form.create.button-title":                               "Neue Playlist erstellen",
   "playlist-list.form.create.name-label":                                 "Name",
-  "playlist-list.form.create.submit-button":                              "Create",
-  "playlist-block.context-menu.play":                                     "Play Playlist",
-  "playlist-block.context-menu.play-next":                                "Play Playlist Next",
-  "playlist-block.context-menu.add-to-queue":                             "Add Playlist to Queue",
-  "playlist-block.context-menu.delete-playlist":                          "Delete Playlist",
-  "playlist-block.context-menu.edit-playlist":                            "Edit Playlist",
-  "playlist-block.track-count.suffix":                                    "songs",
-  "playlist-block.track-count.suffix-singular":                           "song",
+  "playlist-list.form.create.submit-button":                              "Erstellen",
+  "playlist-block.context-menu.play":                                     "Playlist abspielen",
+  "playlist-block.context-menu.play-next":                                "Playlist als Nächstes abspielen",
+  "playlist-block.context-menu.add-to-queue":                             "Playlist zur Warteschlange hinzufügen",
+  "playlist-block.context-menu.delete-playlist":                          "Playlist löschen",
+  "playlist-block.context-menu.edit-playlist":                            "Playlist bearbeiten",
+  "playlist-block.track-count.suffix":                                    "Songs",
+  "playlist-block.track-count.suffix-singular":                           "Song",
 
   // queue
-  "queue.title":                                                          "Up Next",
-  "queue.shuffling-title":                                                "Shuffling",
-  "queue.num-in-queue":                                                   "{{n}} items",
-  "queue.num-in-queue-singular":                                          "{{n}} item",
-  "queue.btn.delete":                                                     "Empty",
-  "queue.empty-message":                                                  "There's nothing coming up next",
-  "queue.context-menu.group-name":                                        "Queue",
-  "queue.context-menu.remove-from-queue":                                 "Remove from Queue",
+  "queue.title":                                                          "Als Nächstes",
+  "queue.shuffling-title":                                                "Mischen",
+  "queue.num-in-queue":                                                   "{{n}} Einträge",
+  "queue.num-in-queue-singular":                                          "{{n}} Eintrag",
+  "queue.btn.delete":                                                     "Leer",
+  "queue.empty-message":                                                  "Es gibt keinen nächsten Eintrag",
+  "queue.context-menu.group-name":                                        "Warteschlange",
+  "queue.context-menu.remove-from-queue":                                 "Aus der Warteschlange entfernen",
 
   // ------------------------------ new translations ------------------------------
 
   // explore
-  "view.explore.title":                                                   "Explore My Music",
+  "view.explore.title":                                                   "Meine Musik erkunden",
   
   // attributions modal
-  "open-source.title":                                                    "Open Source Software",
-  "open-source.first-party":                                              `<p>These open source libraries were developed for Cardinal:</p>
+  "open-source.title":                                                    "Quelloffene Software",
+  "open-source.first-party":                                              `<p>Diese Quelloffenen Bibliotheken wurden für Cardinal entwickelt:</p>
                                                                           <ul>
                                                                             <li><a href="http://github.com/somebeaver/Lowrider.js" class="external">Lowrider.js</a></li>
                                                                             <li><a href="http://github.com/somebeaver/double-u" class="external">double-u</a></li>
@@ -361,7 +361,7 @@ module.exports = {
                                                                             <li><a href="http://github.com/somebeaver/html.js" class="external">html.js</a></li>
                                                                             <li><a href="http://github.com/somebeaver/cardinal-indexing-service" class="external">cardinal-indexing-service</a></li>
                                                                           </ul>`,
-  "open-source.third-party":                                              `<p>Cardinal relies on these third party open source projects:</p>
+  "open-source.third-party":                                              `<p>Cardinal benutzt folgende Drittbibliotheken:</p>
                                                                           <ul>
                                                                             <li><a href="https://www.electronjs.org/" class="external">Electron</a></li>
                                                                             <li><a href="https://www.npmjs.com/package/sqlite3" class="external">sqlite3</a></li>
@@ -383,7 +383,7 @@ module.exports = {
                                                                             <li><a href="https://node-tap.org/" class="external">node-tap</a></li>
                                                                           </ul>`,
   
-  "open-source.fonts":                                                    `<p>And these fonts:</p>
+  "open-source.fonts":                                                    `<p>Und diese Schriftarten:</p>
                                                                           <ul>
                                                                             <li><a href="https://fonts.google.com/specimen/Open+Sans" class="external">Open Sans</a></li>
                                                                             <li><a href="https://fonts.google.com/specimen/Yantramanav" class="external">Yantramanav</a></li>
@@ -391,119 +391,119 @@ module.exports = {
                                                                           </ul>`,
   
   // about modal
-  "about.body":                                                           `<p>Cardinal is designed and developed by <a href="https://github.com/somebeaver" class="external">somebeaver 🌴</a></p>
-                                                                          <p>Get involved with the project on <a href="https://github.com/somebeaver/cardinal-project" class="external">Github</a> and <a href="https://old.reddit.com/r/cardinalapps/" class="external">Reddit</a></p>`,
+  "about.body":                                                           `<p>Cardinal wird designt und programmiert von <a href="https://github.com/somebeaver" class="external">somebeaver 🌴</a>, deutsche Übersetzung von <a href="https://kevink.dev" class="external">Kevin Kandlbinder</a></p>
+                                                                          <p>Verfolge das Projekt auf <a href="https://github.com/somebeaver/cardinal-project" class="external">GitHub</a> und <a href="https://old.reddit.com/r/cardinalapps/" class="external">Reddit</a></p>`,
   
   // folder structure guide modal
-  "folder-structure-guide.title":                                         "Folder Structure Guide",
-  "folder-structure-guide.desc-before-examples":                          `<p><strong>When importing files, Cardinal will always prioritize the embedded file metadata that exists.</strong></ul>
-                                                                           <p>However, when metadata is missing, Cardinal will try to fill in the missing information using the surrounding folders and files.</p>
-                                                                           <p>For the best import results, adhere to these folder structures.</p>`,
-  "folder-structure-guide.example.music.title":                           "Music files",
-  "folder-structure-guide.example.music.code.artist":                     "Artist Name",
-  "folder-structure-guide.example.music.code.album":                      "Album Name",
+  "folder-structure-guide.title":                                         "Ordnerstrukturguide",
+  "folder-structure-guide.desc-before-examples":                          `<p><strong>Wenn Dateien importiert werden, bevorzugt Cardinal immer die eingebetteten Metadaten.</strong></ul>
+                                                                           <p>Wenn allerdings Metadaten fehlen, wird Cardinal versuchen diese aus den umliegenden Ordnern und Dateien zu implizieren.</p>
+                                                                           <p>Für die besten Resultate, halte dich bitte an folgende Ordnerstruktur.</p>`,
+  "folder-structure-guide.example.music.title":                           "Musikdateien",
+  "folder-structure-guide.example.music.code.artist":                     "Künstlername",
+  "folder-structure-guide.example.music.code.album":                      "Albenname",
   "folder-structure-guide.example.music.code.disc":                       "Disc 01 (or CD 01)",
-  "folder-structure-guide.example.music.code.song":                       "01 - Song name.mp3",
+  "folder-structure-guide.example.music.code.song":                       "01 - Songname.mp3",
   "folder-structure-guide.example.music.code.cover-art":                  "cover.jpg",
-  "folder-structure-guide.supported-types.title":                         "Supported File Types",
-  "folder-structure-guide.supported-types.music-files":                   "Music files",
-  "folder-structure-guide.supported-types.artwork":                       "Album art",
+  "folder-structure-guide.supported-types.title":                         "Unterstützte Dateinamen",
+  "folder-structure-guide.supported-types.music-files":                   "Musikdateien",
+  "folder-structure-guide.supported-types.artwork":                       "Albencover",
 
   // metadata editor
-  "metadata-editor.editing-artist.title":                                 "Editing Artist",
-  "metadata-editor.editing-album.title":                                  "Editing Album",
-  "metadata-editor.editing-track.title":                                  "Editing Song",
-  "metadata-editor.editing-playlist.title":                               "Editing Playlist",
-  "metadata-editor.editing-genre.title":                                  "Editing Genre",
-  "metadata-editor.toggle-switch.also-update-file-metadata":              "Also update file metadata",
-  "metadata-editor.toggle-switch.merge-should-overwrite":                 "Overwrite target when merging",
-  "metadata-editor.toggle-switch.merge-should-overwrite-tooltip":         "When updating metadata makes two things merge (artists, movies, whatever), this determines if the values in this form will overwrite the other values.",
-  "metadata-editor.api-update-failed":                                    "The update did not work",
-  "metadata-editor.date.day":                                             "Day",
-  "metadata-editor.date.month":                                           "Month",
-  "metadata-editor.date.year":                                            "Year",
-  "metadata-editor.total-discs-label":                                    "Of",
+  "metadata-editor.editing-artist.title":                                 "Künstlerbearbeitung",
+  "metadata-editor.editing-album.title":                                  "Albenbearbeitung",
+  "metadata-editor.editing-track.title":                                  "Songbearbeitung",
+  "metadata-editor.editing-playlist.title":                               "Playlistbearbeitung",
+  "metadata-editor.editing-genre.title":                                  "Genrebearbeitung",
+  "metadata-editor.toggle-switch.also-update-file-metadata":              "Auch die Dateimetadaten aktualisieren",
+  "metadata-editor.toggle-switch.merge-should-overwrite":                 "Ziel beim Zusammenführen überschreiben",
+  "metadata-editor.toggle-switch.merge-should-overwrite-tooltip":         "Wenn das Aktualisieren der Metadaten zwei Dinge zusammenführt (Künstler, Filme, Was auch immer), entscheidet dies ob die Daten in diesem Formular die bestehenden überschreibt.",
+  "metadata-editor.api-update-failed":                                    "Die Aktualisierung hat nicht geklappt",
+  "metadata-editor.date.day":                                             "Tag",
+  "metadata-editor.date.month":                                           "Monat",
+  "metadata-editor.date.year":                                            "Jahr",
+  "metadata-editor.total-discs-label":                                    "Von",
   "metadata-editor.genres":                                               "Genres",
-  "metadata-editor.smart-fill-guess.tooltip":                             "While importing, Cardinal gusssed this value because the file was missing the appropriate metadata.",
-  "metadata-editor.merge-warning-message":                                "This edit will merge two {{things}}.",
-  "metadata-editor.merge-warning-detail":                                 'If you rename "{{thingA}}" to "{{thingB}}", they will be merged into just "{{thingB}}". Do you want to do this?',
-  "metadata-editor.cannot-edit-currently-playing-song-warning":           'You cannot edit the currently playing song.',
+  "metadata-editor.smart-fill-guess.tooltip":                             "Beim Import hat Cardinal diesen Wert geraten, da in der Datei die entsprechenden Metadaten fehlten.",
+  "metadata-editor.merge-warning-message":                                "Diese Bearbeitung wird zwei {{things}} zusammenführen.",
+  "metadata-editor.merge-warning-detail":                                 'Wenn du "{{thingA}}" auf "{{thingB}}" umbenennst, werden diese in nur "{{thingB}}" zusammengeführt. Willst du das wirklich?',
+  "metadata-editor.cannot-edit-currently-playing-song-warning":           'Du kannst nicht den Song bearbeiten, der gerade abgespielt wird.',
 
   // database column names
-  "column.artist_name":                                                   "Artist",
-  "column.artist_bio":                                                    "Biography",
-  "column.artist_photo":                                                  "Photo",
-  "column.artist_date_added":                                             "Added",
+  "column.artist_name":                                                   "Künstler",
+  "column.artist_bio":                                                    "Biografie",
+  "column.artist_photo":                                                  "Foto",
+  "column.artist_date_added":                                             "Hinzugefügt",
   
   "column.release_title":                                                 "Album",
-  "column.release_year":                                                  "Year",
+  "column.release_year":                                                  "Jahr",
   "column.release_artwork":                                               "Artwork",
   
-  "column.track_title":                                                   "Title",
-  "column.track_date":                                                    "Year",
+  "column.track_title":                                                   "Titel",
+  "column.track_date":                                                    "Jahr",
   "column.track_num":                                                     "Track #",
   "column.track_disc":                                                    "Disc",
-  "column.track_path":                                                    "Path",
-  "column.track_duration":                                                "Duration",
-  "column.track_duration_formatted":                                      "Duration",
-  "column.track_file_type":                                               "File Type",
+  "column.track_path":                                                    "Pfad",
+  "column.track_duration":                                                "Länge",
+  "column.track_duration_formatted":                                      "Länge",
+  "column.track_file_type":                                               "Dateityp",
   "column.track_bitrate":                                                 "Bitrate",
   "column.track_codec":                                                   "Codec",
   "column.track_container":                                               "Container",
-  "column.track_lossless":                                                "Lossless",
-  "column.track_path":                                                    "File",
-  "column.track_source":                                                  "Source",
+  "column.track_lossless":                                                "Verlustlos",
+  "column.track_path":                                                    "Datei",
+  "column.track_source":                                                  "Quelle",
   
   "column.playlist_name":                                                 "Name",
-  "column.playlist_tags":                                                 "Tags",
+  "column.playlist_tags":                                                 "Schlagwörter",
   
   "column.genre_name":                                                    "Name",
   
   // media feed
-  "media-feed.waiting-for-import-to-finish":                              "Waiting for import to finish, have a look around",
-  "media-feed.building-feed":                                             "Looking things up",
-  "media-feed.not-enough-music":                                          "Music exploration requires at least 10 albums",
+  "media-feed.waiting-for-import-to-finish":                              "Warte auf Abschluss des Imports.",
+  "media-feed.building-feed":                                             "Schaue Dinge nach",
+  "media-feed.not-enough-music":                                          "Musikerkundung benötigt mindestens 10 Alben",
   "media-feed.settings-button":                                           "Balance",
-  "media-feed.shuffle-music.title":                                       "Play Something Good",
-  "media-feed.random-album.title":                                        "Play a Random Album",
-  "media-feed.shuffle-artist.title":                                      "Play songs From a<br>Random Artist",
-  "media-feed.shuffle-music-genre.title":                                 "Play Songs From a<br>Random Genre",
-  "media-feed.end":                                                       "That's all folks!",
+  "media-feed.shuffle-music.title":                                       "Etwas gutes abspielen",
+  "media-feed.random-album.title":                                        "Ein zufälliges Album abspielen",
+  "media-feed.shuffle-artist.title":                                      "Spiele Songs von einem<br>Zufälligen Künstler",
+  "media-feed.shuffle-music-genre.title":                                 "Spiele Songs aus einem<br>Zufälligen Genre",
+  "media-feed.end":                                                       "Das war's, Leute!",
   "media-feed-block.top-tracks.title":                                    "Top Tracks",
-  "media-feed-block.recently-played-music.title":                         "Recently Played",
-  "media-feed-block.recently-played-music.no-content":                    "Play some music and it'll appear here",
-  "media-feed-block.recently-added-music.title":                          "Recently Added",
-  "media-feed-block.albums-with-favorites.title":                         "Albums With Favorites",
-  "media-feed-block.albums-with-favorites.no-content":                    "Add songs to your favorites and their albums will appear here",
-  "media-feed-block.artist.top-albums-title":                             "Most Played Albums",
-  "media-feed-block.artist.top-tracks-title":                             "Most Played Songs",
-  "media-feed-block.artist.random-albums-title":                          "A Few Random Albums",
-  "media-feed-block.artist.random-tracks-title":                          "A Few Random Songs",
+  "media-feed-block.recently-played-music.title":                         "Kürzlich Gespielt",
+  "media-feed-block.recently-played-music.no-content":                    "Höre ein bisschen Musik und sie taucht hier auf",
+  "media-feed-block.recently-added-music.title":                          "Kürzlich Hinzugefügt",
+  "media-feed-block.albums-with-favorites.title":                         "Alben mit Favoriten",
+  "media-feed-block.albums-with-favorites.no-content":                    "Füge Songs zu deine Favoriten hinzu und ihre Alben tauchen hier auf",
+  "media-feed-block.artist.top-albums-title":                             "Meistgespielte Alben",
+  "media-feed-block.artist.top-tracks-title":                             "Meistgespielte Songs",
+  "media-feed-block.artist.random-albums-title":                          "Ein paar zufällige Alben",
+  "media-feed-block.artist.random-tracks-title":                          "Ein paar zufällige Songs",
   
   // media feed top picks sentence structures
-  "media-feed-block.top-picks.title.default":                             "Music for right now",
-  "media-feed-block.top-picks.title.overnight-1":                         "Late night tunes",
-  "media-feed-block.top-picks.title.overnight-2":                         "Music for tonight",
-  "media-feed-block.top-picks.title.overnight-3":                         "Keeping it going",
-  "media-feed-block.top-picks.title.overnight-4":                         "For the night owls",
-  "media-feed-block.top-picks.title.overnight-5":                         "Staying awake",
-  "media-feed-block.top-picks.title.morning-1":                           "Starting the day",
-  "media-feed-block.top-picks.title.morning-2":                           "Morning vibes",
-  "media-feed-block.top-picks.title.morning-3":                           "Getting the day started",
-  "media-feed-block.top-picks.title.morning-4":                           "Morning mood",
-  "media-feed-block.top-picks.title.morning-5":                           "Lets do this",
-  "media-feed-block.top-picks.title.afternoon-1":                         "Afternoon audio",
-  "media-feed-block.top-picks.title.afternoon-2":                         "Midday music",
-  "media-feed-block.top-picks.title.afternoon-3":                         "Peak energy",
-  "media-feed-block.top-picks.title.afternoon-4":                         "Feel the afternoon",
-  "media-feed-block.top-picks.title.afternoon-5":                         "Keep killing it",
-  "media-feed-block.top-picks.title.evening-1":                           "Evening energy",
-  "media-feed-block.top-picks.title.evening-2":                           "Just what you need",
-  "media-feed-block.top-picks.title.evening-3":                           "Winding down",
-  "media-feed-block.top-picks.title.evening-4":                           "For the moment",
-  "media-feed-block.top-picks.title.evening-5":                           "For this evening",
+  "media-feed-block.top-picks.title.default":                             "Musik für genau jetzt",
+  "media-feed-block.top-picks.title.overnight-1":                         "Töne der Nacht",
+  "media-feed-block.top-picks.title.overnight-2":                         "Musik für heute Nacht",
+  "media-feed-block.top-picks.title.overnight-3":                         "Bleib' noch wach",
+  "media-feed-block.top-picks.title.overnight-4":                         "Für die Nachteulen",
+  "media-feed-block.top-picks.title.overnight-5":                         "Wachbleiben",
+  "media-feed-block.top-picks.title.morning-1":                           "Ein guter Start in den Tag",
+  "media-feed-block.top-picks.title.morning-2":                           "Morgenvibes",
+  "media-feed-block.top-picks.title.morning-3":                           "Den Tag schwungvoll beginnen",
+  "media-feed-block.top-picks.title.morning-4":                           "Morgenstimmung",
+  "media-feed-block.top-picks.title.morning-5":                           "Los geht's",
+  "media-feed-block.top-picks.title.afternoon-1":                         "Töne für den Nachmittag",
+  "media-feed-block.top-picks.title.afternoon-2":                         "Mittagsmusik",
+  "media-feed-block.top-picks.title.afternoon-3":                         "Spitzenenergie",
+  "media-feed-block.top-picks.title.afternoon-4":                         "Fühl' den Nachmittag",
+  "media-feed-block.top-picks.title.afternoon-5":                         "Mach' stark weiter",
+  "media-feed-block.top-picks.title.evening-1":                           "Abendenergie",
+  "media-feed-block.top-picks.title.evening-2":                           "Genau was du brauchst",
+  "media-feed-block.top-picks.title.evening-3":                           "Runterkommen",
+  "media-feed-block.top-picks.title.evening-4":                           "Für den Moment",
+  "media-feed-block.top-picks.title.evening-5":                           "Für diesen Abend",
   
-  */
+  
   /**
    * Cardinal Server
    */
