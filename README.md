@@ -40,6 +40,7 @@ Once the server is running, strings can be accessed under the `/api/i18n` route.
 
 - English
 - French (in progress)
+- German
 
 ## Contributing
 
