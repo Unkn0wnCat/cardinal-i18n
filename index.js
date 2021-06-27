@@ -1,6 +1,7 @@
 module.exports = {
   'en': require('./src/langs/en.js'),
   'fr': require('./src/langs/fr.js'),
+  'de': require('./src/langs/de.js'),
   'ipc': require('./src/ipc.js'),
   'httpRoutes': require('./src/http-routes.js'),
 
